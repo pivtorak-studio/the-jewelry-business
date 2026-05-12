@@ -1,0 +1,54 @@
+baseURL = 'https://thejewelry.business/'
+defaultContentLanguage = 'uk'
+defaultContentLanguageInSubdir = true
+title = 'The Jewelry Business'
+theme = 'serif' # Змінюємо на Serif
+
+[languages]
+  [languages.uk]
+    languageName = 'UA'
+    contentDir = 'content/uk'
+    weight = 1
+    title = 'Ювелірний Бізнес: Аналітичний Центр'
+  [languages.en]
+    languageName = 'EN'
+    contentDir = 'content/en'
+    weight = 2
+    title = 'The Jewelry Business: Digital Hub'
+  [languages.pt]
+    languageName = 'PT'
+    contentDir = 'content/pt'
+    weight = 3
+
+[params]
+  author = 'Anna Pivtorak'
+  description = 'Analytical Center & Heritage Archive of Jewelry Art'
+  logo = 'logo.png' # Важливо підготувати лого або залишити текст
+  
+  # Налаштування для теми Serif
+  footer_copyright = '© 2002-2026 The Jewelry Business. Under the leadership of Anna Pivtorak.'
+  contact_email = 'editor@thejewelry.business'
+
+# Головне меню, яке відображає ваші нові стратегічні напрямки
+[[menu.main]]
+    name = "Manufacturing"
+    url = "/manufacturing/"
+    weight = 1
+
+[[menu.main]]
+    name = "Luxury & Style"
+    url = "/luxury-style/"
+    weight = 2
+
+[[menu.main]]
+    name = "Intelligence & Archive"
+    url = "/archive/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[markup.goldmark.renderer]
+  unsafe = true # Дозволяє вставляти калькулятори через HTML-коди
