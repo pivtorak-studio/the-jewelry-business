@@ -15,5 +15,5 @@ Founded in 2002 as a specialized publishing house, the project documented the ev
 *   **Intelligence & Archive:** A curated repository of historical data, auction insights, and museum-grade research.
 
 ---
-Anna Pivtorak
+Anna Pivtorak  
 © 2002-2026 The Jewelry Business. All rights reserved.
