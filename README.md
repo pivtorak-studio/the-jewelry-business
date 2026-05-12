@@ -7,7 +7,7 @@ Analytical Center &amp; Heritage Archive of Jewelry Art. Founded in 2002, evolve
 The Jewelry Business (TJB) is an international analytical center and digital archive dedicated to the intersection of jewelry craftsmanship, manufacturing excellence, and luxury philosophy.
 
 ## Historical Note
-Founded in 2002 as a specialized publishing house, the project documented the evolution of the jewelry market for over a decade. In 2026, TJB transitioned into a Digital Hub to preserve industry heritage and provide expert insights for the next generation of creators and collectors.
+Founded in 2002 as a specialized publishing house, the project documented the evolution of the jewelry market for over a decade. In 2026, under the leadership of Anna Pivtorak, TJB transitioned into a Digital Hub to preserve industry heritage and provide expert insights for the next generation of creators and collectors.
 
 ## Strategic Pillars
 *   **Jewelry Manufacturing:** Technical research, innovation, and the legacy of craftsmanship.
