@@ -23,13 +23,13 @@ theme = 'serif' # Змінюємо на Serif
 [params]
   author = 'Anna Pivtorak'
   description = 'Analytical Center & Heritage Archive of Jewelry Art'
-  logo = 'logo.png' # Важливо підготувати лого або залишити текст
+  logo = 'the-jewelry-business-00-logo-2026.webp' # Важливо підготувати лого або залишити текст
   
   # Налаштування для теми Serif
   footer_copyright = '© 2002-2026 The Jewelry Business. Under the leadership of Anna Pivtorak.'
   contact_email = 'editor@thejewelry.business'
 
-# Головне меню, яке відображає ваші нові стратегічні напрямки
+# Головне меню, яке відображає наші нові стратегічні напрямки
 [[menu.main]]
     name = "Manufacturing"
     url = "/manufacturing/"
