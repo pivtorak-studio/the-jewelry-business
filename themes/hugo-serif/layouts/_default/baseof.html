@@ -8,17 +8,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="{{ .Site.Params.favicon | relURL }}">
 
-  {{ partial "google-fonts.html" . }}
-
-  <!-- CSS-->
-  {{ $css_options := dict "targetPath" "css/style.css" "enableSourceMap" (not hugo.IsProduction) }}
-  {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS $css_options }}
-  {{ if hugo.IsProduction }}
-    {{ $style = $style | minify | fingerprint }}
-  {{ end }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-
-  {{ block "header_css" . }}{{ end }}
+  <!-- Тимчасові стилі, щоб прибрати помилки TOCSS -->
+  <style>
+    :root {
+      --primary-color: #2b2b2b;
+      --text-color: #444;
+      --bg-color: #ffffff;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text-color);
+      background: var(--bg-color);
+      margin: 0;
+      padding: 0;
+    }
+    .wrapper { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    header { padding: 30px 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+    nav ul { list-style: none; display: flex; gap: 20px; padding: 0; }
+    nav a { text-decoration: none; color: var(--primary-color); font-weight: 600; }
+    nav a:hover { color: #888; }
+    h1 { color: var(--primary-color); }
+    footer { margin-top: 60px; padding: 40px 0; border-top: 1px solid #eee; text-align: center; font-size: 0.9em; color: #777; }
+    .logo img { height: 40px; }
+  </style>
 
   {{ block "meta_tags" . }}
     {{ with .Params.description }}<meta name="description" content="{{ . }}"/>{{ end }}
@@ -27,36 +40,45 @@
     <meta property="og:url" content="{{ .Permalink }}"/>
     {{ with .Params.image | default .Site.Params.seo.meta_og_image }}<meta property="og:image" content="{{ . | absURL }}"/>{{ end }}
     {{ with .Params.description }}<meta property="og:description" content="{{ . }}"/>{{ end }}
-    <meta name="twitter:card" content="summary"/>
-    {{ with .Site.Params.seo.meta_twitter_site }}<meta name="twitter:site" content="{{ . }}"/>{{ end }}
-    {{ with .Site.Params.seo.meta_twitter_creator }}<meta name="twitter:creator" content="{{ . }}"/>{{ end }}
   {{ end }}
-
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
-  {{ partial "main-menu-mobile.html" . }}
   <div class="wrapper">
-    {{ partial "header.html" . }}
-    {{ block "main" . }}
-    {{ end }}
+    <header>
+      <div class="logo">
+        <a href="{{ .Site.BaseURL | relLangURL }}">
+          {{ if .Site.Params.logo_desktop }}
+            <img src="{{ .Site.Params.logo_desktop | relURL }}" alt="{{ .Site.Title }}">
+          {{ else }}
+            <strong>{{ .Site.Title }}</strong>
+          {{ end }}
+        </a>
+      </div>
+      <nav>
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer>
+      <p>{{ .Site.Params.footer_copyright | default .Site.Title }}</p>
+    </footer>
   </div>
 
-  {{ partial "footer.html" . }}
-  {{ partial "sub-footer.html" . }}
-
   {{ $scripts := resources.Get "js/scripts.js" }}
-
-  {{ block "footer_js" . }}
+  {{ if $scripts }}
+    {{ if hugo.IsProduction }}
+      {{ $scripts = $scripts | minify | fingerprint }}
+    {{ end }}
+    <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
   {{ end }}
-
-  {{ if hugo.IsProduction }}
-    {{ $scripts = $scripts | minify | fingerprint }}
-  {{ end }}
-  <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
-
-  {{ partial "google-tag-manager.html" . }}
-  {{ partial "google-analytics.html" . }}
 </body>
-
 </html>
