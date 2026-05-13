@@ -6,18 +6,16 @@ theme = "hugo-serif"
 [params]
   footer_copyright = "© 2026 The Jewelry Business"
   description = "Custom jewelry and exquisite designs"
-  
-  # Об'єднуємо все в один блок [params]
-  [params.logo]
-    desktop = "images/logo/logo.svg"
-    desktop_height = "40"
-    mobile = "images/logo/logo-mobile.svg"
-    mobile_height = "35"
 
-  [params.font_family]
-    system = "apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+[params.logo]
+  desktop = "images/logo/logo.svg"
+  desktop_height = "40"
+  mobile = "images/logo/logo-mobile.svg"
+  mobile_height = "35"
 
-# Меню виносимо в самий кінець
+[params.font_family]
+  system = "apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+
 [[menu.main]]
   name = "Home"
   url = "/"
@@ -27,13 +25,3 @@ theme = "hugo-serif"
   name = "Services"
   url = "/services/"
   weight = 2
-
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 3
-
-[[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  weight = 4
