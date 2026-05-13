@@ -31,20 +31,20 @@ theme = 'serif' # Змінюємо на Serif
 
 # Головне меню, яке відображає наші нові стратегічні напрямки
 [[menu.main]]
-    name = "Manufacturing"
-    url = "/manufacturing/"
+    name = "Jewelry Manufacturing"
+    url = "/jewelry-manufacturing/"
     weight = 1
 
 [[menu.main]]
     name = "Luxury & Style"
-    url = "/luxury-style/"
+    url = "/luxury-and-style/"
     weight = 2
 
 [[menu.main]]
-    name = "Intelligence & Archive"
-    url = "/archive/"
+    name = "Intelligence & Heritage"
+    url = "/intelligence-and-heritage/"
     weight = 3
-
+    
 [[menu.main]]
     name = "About"
     url = "/about/"
