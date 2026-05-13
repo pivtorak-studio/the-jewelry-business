@@ -2,7 +2,7 @@ baseURL = 'https://thejewelry.business/'
 defaultContentLanguage = 'uk'
 defaultContentLanguageInSubdir = true
 title = 'The Jewelry Business'
-theme = 'serif'
+theme = 'serif' 
 
 [languages]
   [languages.uk]
