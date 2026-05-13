@@ -7,11 +7,7 @@ theme = "hugo-serif"
   footer_copyright = "© 2026 The Jewelry Business"
   description = "Custom jewelry and exquisite designs"
   
-  # Прописуємо всі можливі варіанти назв для шрифтів
-  font_family_base = "apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-  font_family_primary = "apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-  body_font_family = "apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-
+  
   # Логотип теж виносимо в основний список params
   logo_desktop = "images/logo/logo.svg"
   logo_desktop_height = "40"
