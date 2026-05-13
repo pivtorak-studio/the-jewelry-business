@@ -6,6 +6,8 @@ theme = "hugo-serif"
 [params]
   footer_copyright = "© 2026 The Jewelry Business"
   description = "Custom jewelry and exquisite designs"
+  # Додаємо шрифт прямо в params про всяк випадок
+  font_family_base = "apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
 
 [params.logo]
   desktop = "images/logo/logo.svg"
