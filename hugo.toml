@@ -23,7 +23,7 @@ theme = 'serif' # Змінюємо на Serif
 [params]
   author = 'Anna Pivtorak'
   description = 'Analytical Center & Heritage Archive of Jewelry Art'
-  logo = 'the-jewelry-business-00-logo-2026.webp' # Важливо підготувати лого або залишити текст
+  logo = 'the-jewelry-business-00-logo-2026.webp' # Важливо - лого
   
   # Налаштування для теми Serif
   footer_copyright = '© 2002-2026 The Jewelry Business. Under the leadership of Anna Pivtorak.'
