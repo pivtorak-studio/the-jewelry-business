@@ -9,9 +9,9 @@ theme = "hugo-serif"
  
   
   # Логотип теж виносимо в основний список params
-  logo_desktop = "images/logo/the-jewelry-business-logo-2026.webp"
+  logo_desktop = "images/logo/the-jewelry-business-logo-2026.svg"
   logo_desktop_height = "40"
-  logo_mobile = "images/logo/the-jewelry-business-logo-2026.webp"
+  logo_mobile = "images/logo/the-jewelry-business-logo-2026.svg"
   logo_mobile_height = "35"
 
 [[menu.main]]
