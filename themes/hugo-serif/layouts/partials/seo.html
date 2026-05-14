@@ -1,0 +1,130 @@
+<link rel="canonical" href="{{ .Permalink }}">
+
+<meta name="robots" content="{{ if eq .Language.Lang "ru" }}noindex, nofollow{{ else }}index, follow{{ end }}">
+<meta name="googlebot" content="max-image-preview:large">
+
+<meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
+<meta name="author" content="Anna Pivtorak">
+
+<meta property="og:site_name" content="The Jewelry Business">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Params.description | default .Summary }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+
+{{ with .Params.image }}
+<meta property="og:image" content="{{ . | absURL }}">
+<meta name="twitter:image" content="{{ . | absURL }}">
+{{ else }}
+{{ with .Site.Params.defaultImage }}
+<meta property="og:image" content="{{ . | absURL }}">
+<meta name="twitter:image" content="{{ . | absURL }}">
+{{ end }}
+{{ end }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Params.description | default .Summary }}">
+
+{{ $langMap := dict "uk" "uk-UA" "en" "en" "pt" "pt-PT" "ru" "ru" }}
+
+<link rel="alternate" hreflang="{{ index $langMap .Language.Lang | default .Language.Lang }}" href="{{ .Permalink }}">
+
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ index $langMap .Language.Lang | default .Language.Lang }}" href="{{ .Permalink }}">
+{{ end }}
+
+{{ with .Site.GetPage (printf "/en%s" .RelPermalink) }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{ end }}
+
+{{ partial "breadcrumbs_schema.html" . }}
+
+<!-- Organization Schema -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://thejewelry.business/#organization",
+  "name": "The Jewelry Business",
+  "alternateName": [
+    "TJB",
+    "The Jewelry Business Archive",
+    "The Jewelry Business Digital Hub"
+  ],
+  "url": "https://thejewelry.business/",
+  "logo": "https://thejewelry.business/images/logo/the-jewelry-business-logo-2026.svg",
+  "description": "Analytical Center & Heritage Archive of Jewelry Art. Founded in 2002 and transformed into a digital research hub in 2026.",
+  "foundingDate": "2002",
+  "founder": {
+    "@type": "Person",
+    "@id": "https://thejewelry.business/#anna-pivtorak",
+    "name": "Anna Pivtorak"
+  },
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q139782018",
+    "https://www.instagram.com/thejewelry.business/",
+    "https://www.facebook.com/anna.pivtorak.jb.expert/",
+    "https://pivtorak.studio/"
+  ]
+}
+</script>
+{{ end }}
+
+<!-- Person Schema -->
+{{ if or .IsHome (eq .Params.id "anna-pivtorak") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://thejewelry.business/#anna-pivtorak",
+  "name": "Анна Півторак",
+  "alternateName": [
+    "Anna Pivtorak",
+    "Anna Pivtorak Kostyuk",
+    "Анна Півторак Костюк",
+    "Анна Костюк"
+  ],
+  "url": "https://thejewelry.business/",
+  "jobTitle": [
+    "Editor-in-Chief",
+    "Lead Researcher",
+    "Jewelry Historian",
+    "Conceptual Jewelry Artist"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "@id": "https://thejewelry.business/#organization"
+  },
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q139713547",
+    "https://www.instagram.com/thejewelry.business/",
+    "https://www.facebook.com/anna.pivtorak.jb.expert/",
+    "https://pivtorak.studio/"
+  ]
+}
+</script>
+{{ end }}
+
+<!-- Website Schema -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://thejewelry.business/#website",
+  "url": "https://thejewelry.business/",
+  "name": "The Jewelry Business",
+  "description": "Analytical Center & Heritage Archive of Jewelry Art",
+  "publisher": {
+    "@id": "https://thejewelry.business/#organization"
+  },
+  "inLanguage": [
+    "en",
+    "uk",
+    "pt-PT"
+  ]
+}
+</script>
+{{ end }}
