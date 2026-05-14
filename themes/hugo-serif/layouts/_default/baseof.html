@@ -31,6 +31,29 @@
     h1 { color: var(--primary-color); }
     footer { margin-top: 60px; padding: 40px 0; border-top: 1px solid #eee; text-align: center; font-size: 0.9em; color: #777; }
     .logo img { height: 40px; }
+/* Збільшуємо логотип */
+    .logo img {
+      height: 70px !important;
+      width: auto !important;
+    }
+
+    /* Стилі для зображень у тексті */
+    main img {
+      max-width: 300px;
+      height: auto;
+      float: right;
+      margin: 0 0 1rem 1.5rem;
+      border-radius: 8px;
+    }
+
+    /* Мобільна адаптація для картинок */
+    @media (max-width: 600px) {
+      main img {
+        width: 100%;
+        float: none;
+        margin: 1rem 0;
+      }
+    }
   </style>
 
   {{ block "meta_tags" . }}
