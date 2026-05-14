@@ -6,6 +6,7 @@ theme = "hugo-serif"
 [params]
   footer_copyright = "© 2026 The Jewelry Business"
   description = "Custom jewelry and exquisite designs"
+  logo_desktop = "images/logo/the-jewelry-business-logo-2026.webp"
   
   
   # Логотип теж виносимо в основний список params
