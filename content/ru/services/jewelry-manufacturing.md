@@ -1,6 +1,4 @@
 ---
-"type:": page
-"layout:": single
 id: jewelry-manufacturing
 language: ru
 translation_of: jewelry-manufacturing

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/en/about/mission.md",
+                "file": "content/uk/services/jewelry-manufacturing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mission"
+              "title": "jewelry-manufacturing"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/en/about/mission.md",
+                "file": "content/uk/services/jewelry-manufacturing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для mission"
+              "title": "Зворотні посилання для jewelry-manufacturing"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/en/about/mission.md",
+                "file": "content/uk/services/jewelry-manufacturing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з mission"
+              "title": "Вихідні посилання з jewelry-manufacturing"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/en/about/mission.md",
+                "file": "content/uk/services/jewelry-manufacturing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст mission"
+              "title": "Вміст jewelry-manufacturing"
             }
           }
         ]
@@ -185,22 +185,25 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/ru/services/jewelry-manufacturing.md",
+    "content/uk/services/jewelry-manufacturing.md",
+    "content/uk/services/intelligence-and-heritage.md",
+    "content/uk/services/luxury-and-style.md",
+    "content/pt/services/jewelry-manufacturing.md",
+    "content/en/services/jewelry-manufacturing.md",
+    "content/en/about/mission.md",
     "content/uk/services/_index.md",
     "content/ru/services/_index.md",
     "content/pt/services/_index.md",
     "content/en/services/_index.md",
     "content/en/services/New Text Document.txt",
     "content/en/_index.md",
-    "content/uk/services/intelligence-and-heritage.md",
-    "content/uk/services/luxury-and-style.md",
     "content/ru/services/intelligence-and-heritage.md",
     "content/ru/services/luxury-and-style.md",
     "content/uk/jewelry-manufacturing/_index.md",
-    "content/uk/services/jewelry-manufacturing.md",
     "content/uk/services/New Text Document.txt",
     "content/uk/services",
     "content/uk/New folder",
-    "content/ru/services/jewelry-manufacturing.md",
     "content/ru/services",
     "content/ru/New folder",
     "content/ru/jewelry-manufacturing.md",
@@ -211,16 +214,13 @@
     "content/pt/services/luxury-and-style.md",
     "content/pt/services/New Text Document.txt",
     "content/pt/services/intelligence-and-heritage.md",
-    "content/pt/services/jewelry-manufacturing.md",
     "content/pt/jewelry-manufacturing/_index.md",
     "content/pt/jewelry-manufacturing/jewelry-manufacturing.md",
     "content/pt/services",
     "content/pt/New folder",
     "content/en/jewelry-manufacturing.md",
-    "content/en/services/jewelry-manufacturing.md",
     "content/en/services",
     "content/en/jewelry-manufacturing/_index.md",
-    "content/en/jewelry-manufacturing/jewelry-manufacturing.md",
     "static/images/jewelry-manufacturing.webp"
   ]
 }
