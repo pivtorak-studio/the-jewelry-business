@@ -68,7 +68,7 @@ defaultContentLanguageInSubdir = false
 
 [[languages.uk.menu.main]]
   name = "Виробництво"
-  url = "/services/jewelry-manufacturing"  # Посилання на український файл
+  url = "/uk/services/jewelry-manufacturing/"  # Посилання на український файл
   weight = 2
 
 # --- ПОРТУГАЛЬСЬКЕ МЕНЮ ---
@@ -79,5 +79,19 @@ defaultContentLanguageInSubdir = false
 
 [[languages.pt.menu.main]]
   name = "Fabricação"
-  url = "/services/jewelry-manufacturing"  # Посилання на португальський файл
+  url = "/pt/services/jewelry-manufacturing/"  # Посилання на португальський файл
   weight = 2
+
+# Російське меню тимчасово закоментовано. 
+  # Для активації просто видаліть символ "#" з початку наступних рядків:
+
+# --- РОСІЙСЬКЕ МЕНЮ ---
+# [[languages.ru.menu.main]]
+#  name = "Início"
+#  url = "/ru/"
+#  weight = 1
+
+# [[languages.ru.menu.main]]
+#  name = "Fabricação"
+#  url = "/ru/services/jewelry-manufacturing/"  # Посилання на португальський файл
+#  weight = 2
