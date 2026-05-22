@@ -11,14 +11,10 @@
             "id": "7b0585f121673276",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/uk/jewelry-manufacturing/_index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "Нова вкладка"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/uk/jewelry-manufacturing/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для _index"
+              "title": "Зворотні посилання"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/uk/jewelry-manufacturing/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з _index"
+              "title": "Вихідні посилання"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/uk/jewelry-manufacturing/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст _index"
+              "title": "Вміст"
             }
           }
         ]
@@ -185,10 +178,18 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/uk/jewelry-manufacturing.md",
+    "content/uk/jewelry-manufacturing/_index.md",
+    "content/uk/jewelry-manufacturing/jewelry-manufacturing.md",
+    "content/ru/jewelry-manufacturing.md",
+    "content/ru/jewelry-manufacturing/jewelry-manufacturing.md",
+    "content/pt/jewelry-manufacturing.md",
+    "content/pt/jewelry-manufacturing/jewelry-manufacturing.md",
+    "content/en/jewelry-manufacturing.md",
+    "content/en/jewelry-manufacturing/jewelry-manufacturing.md",
     "content/ru/jewelry-manufacturing/_index.md",
     "content/pt/jewelry-manufacturing/_index.md",
     "content/en/jewelry-manufacturing/_index.md",
-    "content/uk/jewelry-manufacturing/_index.md",
     "static/images/jewelry-manufacturing.webp",
     "static/images/Unconfirmed 164267.crdownload"
   ]
