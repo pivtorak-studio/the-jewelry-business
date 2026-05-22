@@ -1,25 +1,83 @@
-baseURL = "/"
-languageCode = "en-us"
+baseURL = "https://thejewelry.business/"
 title = "The Jewelry Business"
 theme = "hugo-serif"
+
+# Базова мова сайту (якщо зайти без префікса /uk/ чи /pt/)
+defaultContentLanguage = "en"
+# Вимикаємо дублювання префікса мови за замовчуванням (щоб не було /en/)
+defaultContentLanguageInSubdir = false
 
 [params]
   footer_copyright = "© 2026 The Jewelry Business"
   description = "Custom jewelry and exquisite designs"
- 
   
-  # Логотип теж виносимо в основний список params
+  # Преміальний SVG-логотип
   logo_desktop = "images/logo/the-jewelry-business-logo-2026.svg"
   logo_desktop_height = "40"
   logo_mobile = "images/logo/the-jewelry-business-logo-2026.svg"
   logo_mobile_height = "35"
 
-[[menu.main]]
+# ----------------------------------------------------
+# МОВНІ НАЛАШТУВАННЯ (LANGUAGES)
+# ----------------------------------------------------
+
+[languages]
+
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    weight = 1
+
+  [languages.uk]
+    languageCode = "uk-ua"
+    languageName = "Українська"
+    weight = 2
+
+  [languages.pt]
+    languageCode = "pt-pt"
+    languageName = "Português"
+    weight = 3
+
+  # Російську мову тимчасово закоментовано. 
+  # Для активації просто видаліть символ "#" з початку наступних 4 рядків:
+  # [languages.ru]
+  #   languageCode = "ru-ru"
+  #   languageName = "Русский"
+  #   weight = 4
+
+# ----------------------------------------------------
+# МЕНЮ НАВІГАЦІЇ ДЛЯ КОЖНОЇ МОВИ
+# ----------------------------------------------------
+
+# --- АНГЛІЙСЬКЕ МЕНЮ ---
+[[languages.en.menu.main]]
   name = "Home"
   url = "/"
   weight = 1
 
-[[menu.main]]
-  name = "Services"
-  url = "/services/"
+[[languages.en.menu.main]]
+  name = "Manufacturing"
+  url = "/jewelry-manufacturing/"
+  weight = 2
+
+# --- УКРАЇНСЬКЕ МЕНЮ ---
+[[languages.uk.menu.main]]
+  name = "Головна"
+  url = "/"
+  weight = 1
+
+[[languages.uk.menu.main]]
+  name = "Виробництво"
+  url = "/jewelry-manufacturing/"
+  weight = 2
+
+# --- ПОРТУГАЛЬСЬКЕ МЕНЮ ---
+[[languages.pt.menu.main]]
+  name = "Início"
+  url = "/"
+  weight = 1
+
+[[languages.pt.menu.main]]
+  name = "Fabricação"
+  url = "/jewelry-manufacturing/"
   weight = 2
