@@ -93,5 +93,5 @@ defaultContentLanguageInSubdir = false
 
 # [[languages.ru.menu.main]]
 #  name = "Производство"
-#  url = "/ru/services/jewelry-manufacturing/"  # Посилання на португальський файл
+#  url = "/ru/services/jewelry-manufacturing/"  # Посилання на російський файл
 #  weight = 2

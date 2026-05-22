@@ -4,6 +4,7 @@ language: pt
 translation_of: jewelry-manufacturing
 title: Jewelry Manufacturing
 description: Tecnologia, artesanato e património da fabricação de joalharia. Um arquivo de investigação dedicado a ferramentas, materiais, processos de produção e cultura das oficinas.
+"type:": services
 event_date: 2026-05-22T21:00:00
 publication_date: 2026-05-22T21:00:00
 tags:
