@@ -1,4 +1,5 @@
 ---
+"layout:": '"single"'
 id: jewelry-manufacturing
 language: en
 translation_of: jewelry-manufacturing
@@ -48,7 +49,6 @@ keywords:
   - jewelry technology
   - jewelry production
   - manufacturing heritage
-"layout:": '"single"'
 ---
 <script type="application/ld+json">
 {

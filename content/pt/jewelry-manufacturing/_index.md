@@ -1,4 +1,5 @@
 ---
+"layout:": '"single"'
 id: jewelry-manufacturing
 language: pt
 translation_of: jewelry-manufacturing
@@ -47,7 +48,6 @@ keywords:
   - arquivo de joalharia
   - tecnologia joalheira
   - património de produção
-"layout:": '"single"'
 ---
 <script type="application/ld+json">
 {

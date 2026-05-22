@@ -1,4 +1,5 @@
 ---
+"layout:": '"single"'
 id: jewelry-manufacturing
 language: uk
 translation_of: jewelry-manufacturing
@@ -48,7 +49,6 @@ keywords:
   - jewelry archive
   - manufacturing heritage
   - jewelry production
-"layout:": '"single"'
 ---
 <script type="application/ld+json">
 {

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/uk/jewelry-manufacturing/_index.md",
+                "file": "content/en/jewelry-manufacturing/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/uk/jewelry-manufacturing/_index.md",
+                "file": "content/en/jewelry-manufacturing/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/uk/jewelry-manufacturing/_index.md",
+                "file": "content/en/jewelry-manufacturing/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/uk/jewelry-manufacturing/_index.md",
+                "file": "content/en/jewelry-manufacturing/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,13 +185,13 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
-    "content/ru/jewelry-manufacturing/_index.md",
     "content/pt/jewelry-manufacturing/_index.md",
+    "content/ru/jewelry-manufacturing/_index.md",
+    "content/uk/jewelry-manufacturing/_index.md",
     "content/en/jewelry-manufacturing/_index.md",
     "content/en/jewelry-manufacturing/jewelry-manufacturing.md",
     "content/pt/jewelry-manufacturing/jewelry-manufacturing.md",
     "content/ru/jewelry-manufacturing/jewelry-manufacturing.md",
-    "content/uk/jewelry-manufacturing/_index.md",
     "content/uk/jewelry-manufacturing/jewelry-manufacturing.md",
     "content/uk/jewelry-manufacturing",
     "content/ru/jewelry-manufacturing",
