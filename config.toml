@@ -87,11 +87,11 @@ defaultContentLanguageInSubdir = false
 
 # --- РОСІЙСЬКЕ МЕНЮ ---
 # [[languages.ru.menu.main]]
-#  name = "Início"
+#  name = "Главная"
 #  url = "/ru/"
 #  weight = 1
 
 # [[languages.ru.menu.main]]
-#  name = "Fabricação"
+#  name = "Производство"
 #  url = "/ru/services/jewelry-manufacturing/"  # Посилання на португальський файл
 #  weight = 2
