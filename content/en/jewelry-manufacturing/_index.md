@@ -1,4 +1,5 @@
 ---
+"type:": '"page"'
 "layout:": '"single"'
 id: jewelry-manufacturing
 language: en
