@@ -57,27 +57,27 @@ defaultContentLanguageInSubdir = false
 
 [[languages.en.menu.main]]
   name = "Manufacturing"
-  pageRef = "jewelry-manufacturing"  # Hugo сам знайде потрібний .md файл
+  url = "/jewelry-manufacturing/"  # Прямий лінк для англійської версії
   weight = 2
 
 # --- УКРАЇНСЬКЕ МЕНЮ ---
 [[languages.uk.menu.main]]
   name = "Головна"
-  url = "/"
+  url = "/uk/"                     # Веде на українську головну
   weight = 1
 
 [[languages.uk.menu.main]]
   name = "Виробництво"
-  pageRef = "jewelry-manufacturing"  # Hugo автоматично підставить /uk/
+  url = "/uk/jewelry-manufacturing/"  # Прямий лінк для української версії
   weight = 2
 
 # --- ПОРТУГАЛЬСЬКЕ МЕНЮ ---
 [[languages.pt.menu.main]]
   name = "Início"
-  url = "/"
+  url = "/pt/"                     # Веде на португальську головну
   weight = 1
 
 [[languages.pt.menu.main]]
   name = "Fabricação"
-  pageRef = "jewelry-manufacturing"  # Hugo автоматично підставить /pt/
+  url = "/pt/jewelry-manufacturing/"  # Прямий лінк для португальської версії
   weight = 2
