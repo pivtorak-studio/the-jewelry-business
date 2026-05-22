@@ -1,5 +1,6 @@
 ---
-"layout:": '"single"'
+"type:": page
+"layout:": single
 id: jewelry-manufacturing
 language: ru
 translation_of: jewelry-manufacturing
@@ -48,7 +49,6 @@ keywords:
   - архив ювелирного искусства
   - технологии ювелирного производства
   - наследие производства
-"type:": '"page"'
 ---
 <script type="application/ld+json">
 {

@@ -1,6 +1,6 @@
 ---
-"type:": '"page"'
-"layout:": '"single"'
+"type:": page
+"layout:": single
 id: jewelry-manufacturing
 language: pt
 translation_of: jewelry-manufacturing
