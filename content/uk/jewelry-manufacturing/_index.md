@@ -2,11 +2,10 @@
 id: jewelry-manufacturing
 language: uk
 translation_of: jewelry-manufacturing
-title: "Jewelry Manufacturing"
-description: "Технології, ремесло та спадщина ювелірного виробництва. Архів знань про інструменти, матеріали, процеси та культуру створення прикрас."
+title: Jewelry Manufacturing
+description: Технології, ремесло та спадщина ювелірного виробництва. Архів знань про інструменти, матеріали, процеси та культуру створення прикрас.
 event_date: 2026-05-22T21:00:00
 publication_date: 2026-05-22T21:00:00
-
 tags:
   - jewelry manufacturing
   - ювелірне виробництво
@@ -18,36 +17,27 @@ tags:
   - craftsmanship
   - jewelry archive
   - The Jewelry Business
-
 country: PT
 status: published
 featured: true
-
 image: /images/jewelry-manufacturing.webp
-
-alt: "Руки ювеліра працюють із восковою моделлю та золотом у професійній майстерні на білому фоні. Editorial aesthetic The Jewelry Business."
-
+alt: Руки ювеліра працюють із восковою моделлю та золотом у професійній майстерні на білому фоні. Editorial aesthetic The Jewelry Business.
 related:
   - /uk/luxury-and-style/
   - /uk/intelligence-and-heritage/
   - /uk/about/mission/
   - /uk/about/philosophy/
-
 weight: 1
 draft: false
 toc: true
-
 categories:
   - Jewelry Manufacturing
   - Heritage
   - Research
-
 series:
   - The Jewelry Business
-
 authors:
   - Anna Pivtorak
-
 keywords:
   - jewelry manufacturing
   - ювелірне ремесло
@@ -58,6 +48,7 @@ keywords:
   - jewelry archive
   - manufacturing heritage
   - jewelry production
+"layout:": '"single"'
 ---
 <script type="application/ld+json">
 {

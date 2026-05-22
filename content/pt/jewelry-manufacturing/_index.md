@@ -2,11 +2,10 @@
 id: jewelry-manufacturing
 language: pt
 translation_of: jewelry-manufacturing
-title: "Jewelry Manufacturing"
-description: "Tecnologia, artesanato e património da fabricação de joalharia. Um arquivo de investigação dedicado a ferramentas, materiais, processos de produção e cultura das oficinas."
+title: Jewelry Manufacturing
+description: Tecnologia, artesanato e património da fabricação de joalharia. Um arquivo de investigação dedicado a ferramentas, materiais, processos de produção e cultura das oficinas.
 event_date: 2026-05-22T21:00:00
 publication_date: 2026-05-22T21:00:00
-
 tags:
   - jewelry manufacturing
   - fabrico de joalharia
@@ -18,36 +17,27 @@ tags:
   - artesanato
   - arquivo de joalharia
   - The Jewelry Business
-
 country: PT
 status: published
 featured: true
-
 image: /images/jewelry-manufacturing.webp
-
-alt: "Plano aproximado das mãos de um joalheiro a trabalhar com modelo em cera e ouro bruto numa oficina profissional sobre fundo branco contínuo. Estética editorial do The Jewelry Business."
-
+alt: Plano aproximado das mãos de um joalheiro a trabalhar com modelo em cera e ouro bruto numa oficina profissional sobre fundo branco contínuo. Estética editorial do The Jewelry Business.
 related:
   - /pt/luxury-and-style/
   - /pt/intelligence-and-heritage/
   - /pt/about/mission/
   - /pt/about/philosophy/
-
 weight: 1
 draft: false
 toc: true
-
 categories:
   - Jewelry Manufacturing
   - Heritage
   - Research
-
 series:
   - The Jewelry Business
-
 authors:
   - Anna Pivtorak
-
 keywords:
   - fabricação de joalharia
   - artesanato joalheiro
@@ -57,6 +47,7 @@ keywords:
   - arquivo de joalharia
   - tecnologia joalheira
   - património de produção
+"layout:": '"single"'
 ---
 <script type="application/ld+json">
 {
