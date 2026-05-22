@@ -106,6 +106,12 @@ keywords:
 }
 </script>
 
+<div class="float-right">
+
+![Jewelry Manufacturing](/images/jewelry-manufacturing.webp)
+
+</div>
+
 # Jewelry Manufacturing
 
 ## Технології. Ремесло. Спадщина.
