@@ -1,11 +1,9 @@
 ---
-"type:": page
-"layout:": single
+title: "Jewelry Manufacturing"
+description: "Technology, craftsmanship, and the heritage of jewelry manufacturing. A research archive dedicated to tools, materials, production processes, and workshop culture."
 id: jewelry-manufacturing
 language: en
 translation_of: jewelry-manufacturing
-title: Jewelry Manufacturing
-description: Technology, craftsmanship, and the heritage of jewelry manufacturing. A research archive dedicated to tools, materials, production processes, and workshop culture.
 event_date: 2026-05-22T21:00:00
 publication_date: 2026-05-22T21:00:00
 tags:
@@ -23,12 +21,7 @@ country: PT
 status: published
 featured: true
 image: /images/jewelry-manufacturing.webp
-alt: Close-up of a jeweler’s hands working with wax model and raw gold in a professional workshop on a seamless white background. Editorial aesthetic of The Jewelry Business.
-related:
-  - /en/luxury-and-style/
-  - /en/intelligence-and-heritage/
-  - /en/about/mission/
-  - /en/about/philosophy/
+alt: "Close-up of a jeweler’s hands working with wax model and raw gold in a professional workshop on a seamless white background. Editorial aesthetic of The Jewelry Business."
 weight: 1
 draft: false
 toc: true
@@ -98,11 +91,7 @@ keywords:
 }
 </script>
 
-<div class="float-right">
-
 ![Jewelry Manufacturing](/images/jewelry-manufacturing.webp)
-
-</div>
 
 # Jewelry Manufacturing
 
