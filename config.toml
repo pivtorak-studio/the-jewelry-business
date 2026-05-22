@@ -57,7 +57,7 @@ defaultContentLanguageInSubdir = false
 
 [[languages.en.menu.main]]
   name = "Manufacturing"
-  url = "/jewelry-manufacturing"  # Чітке відносне посилання на файл
+  url = "/services/jewelry-manufacturing/"  # Додали /services/
   weight = 2
 
 # --- УКРАЇНСЬКЕ МЕНЮ ---
@@ -68,7 +68,7 @@ defaultContentLanguageInSubdir = false
 
 [[languages.uk.menu.main]]
   name = "Виробництво"
-  url = "/uk/jewelry-manufacturing"  # Посилання на український файл
+  url = "/services/jewelry-manufacturing"  # Посилання на український файл
   weight = 2
 
 # --- ПОРТУГАЛЬСЬКЕ МЕНЮ ---
@@ -79,5 +79,5 @@ defaultContentLanguageInSubdir = false
 
 [[languages.pt.menu.main]]
   name = "Fabricação"
-  url = "/pt/jewelry-manufacturing"  # Посилання на португальський файл
+  url = "/services/jewelry-manufacturing"  # Посилання на португальський файл
   weight = 2
