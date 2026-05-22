@@ -37,21 +37,20 @@
       width: auto !important;
     }
 
-    /* Стилі для зображень у тексті */
+    /* Стилі для преміальних великих зображень */
     main img {
-      max-width: 300px;
+      display: block;
+      max-width: 100%;
       height: auto;
-      float: right;
-      margin: 0 0 1rem 1.5rem;
-      border-radius: 8px;
+      margin: 2.5rem auto; /* Центрує картинку та додає елегантні відступи зверху/знизу */
+      box-shadow: none !important; /* Жодних грубих тіней */
+      border: none !important; /* Жодних рамок */
     }
 
-    /* Мобільна адаптація для картинок */
+    /* Адаптація для мобільних екранів */
     @media (max-width: 600px) {
       main img {
-        width: 100%;
-        float: none;
-        margin: 1rem 0;
+        margin: 1.5rem auto;
       }
     }
   </style>
