@@ -185,6 +185,7 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "layouts/partials/header.html",
     "layouts/partials/main-menu.html",
     "layouts/partials",
     "layouts/New folder",
@@ -221,7 +222,6 @@
     "content/uk/services/jewelry-manufacturing.uk.md",
     "content/uk/services/intelligence-and-heritage.uk.md",
     "content/uk/services/_index.uk.md",
-    "content/services",
     "static/images/jewelry-manufacturing.webp"
   ]
 }
