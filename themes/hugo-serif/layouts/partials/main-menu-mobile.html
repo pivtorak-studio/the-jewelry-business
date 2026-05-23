@@ -1,14 +1,45 @@
-<div id="main-menu-mobile" class="main-menu-mobile">
+<div id="main-menu" class="main-menu">
+
   <ul>
+
     {{ $currentPage := . }}
+
     {{ range .Site.Menus.main }}
-    {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
-    {{ $active = or $active (eq (.URL | relLangURL) ($currentPage.RelPermalink | relLangURL)) }}
-    <li class="menu-item-{{ .Name | lower }} {{ if $active }}active{{ end }}">
-      <a href="{{ .URL }}">
-        <span>{{ .Name }}</span>
-      </a>
-    </li>
-    {{end}}
+
+      {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+      {{ $active = or $active (eq (.URL | relLangURL) ($currentPage.RelPermalink | relLangURL)) }}
+
+      <li class="menu-item-{{ .Name | lower }} {{ if $active }}active{{ end }}">
+
+        <a href="{{ .URL | relLangURL }}">
+
+          {{ .Pre }}
+
+          <span>{{ .Name }}</span>
+
+        </a>
+
+      </li>
+
+    {{ end }}
+
   </ul>
+
+  <div class="language-switcher">
+
+    {{ range .Site.Languages }}
+
+      <a href="{{ .Lang | relLangURL }}">
+
+        {{ if eq .Lang "en" }}EN{{ end }}
+        {{ if eq .Lang "uk" }}UA{{ end }}
+        {{ if eq .Lang "pt" }}PT{{ end }}
+        {{ if eq .Lang "ru" }}RU{{ end }}
+
+      </a>
+
+    {{ end }}
+
+  </div>
+
 </div>
