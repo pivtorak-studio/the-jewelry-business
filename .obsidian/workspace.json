@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.uk.md",
+                "file": "content/services/jewelry-manufacturing.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index.uk"
+              "title": "jewelry-manufacturing.en"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/_index.uk.md",
+                "file": "content/services/jewelry-manufacturing.en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для _index.uk"
+              "title": "Зворотні посилання для jewelry-manufacturing.en"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/_index.uk.md",
+                "file": "content/services/jewelry-manufacturing.en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з _index.uk"
+              "title": "Вихідні посилання з jewelry-manufacturing.en"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/_index.uk.md",
+                "file": "content/services/jewelry-manufacturing.en.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст _index.uk"
+              "title": "Вміст jewelry-manufacturing.en"
             }
           }
         ]
@@ -185,12 +185,12 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/_index.uk.md",
     "themes/hugo-serif/layouts/single.html",
     "themes/hugo-serif/layouts/New Text Document.txt",
     "content/_index.ru.md",
     "content/_index.pt.md",
     "content/_index.en.md",
-    "content/_index.uk.md",
     "content/services/jewelry-manufacturing.ru.md",
     "content/New Text Document.txt",
     "content/services/jewelry-manufacturing.uk.md",
@@ -220,7 +220,6 @@
     "content/uk/services",
     "content/uk/New folder",
     "content/ru/services",
-    "content/ru/New folder",
     "static/images/jewelry-manufacturing.webp"
   ]
 }

@@ -1,51 +1,54 @@
 ---
-title: Jewelry Manufacturing
-description: Technology, craftsmanship, and the heritage of jewelry manufacturing. A research archive dedicated to tools, materials, production processes, and workshop culture.
-"type:": services
+title: "Jewelry Manufacturing"
+
+description: "Technology, craftsmanship, and the heritage of jewelry manufacturing."
+
+type: services
+layout: single
+
+translationKey: jewelry-manufacturing
+
 id: jewelry-manufacturing
 language: en
-translation_of: jewelry-manufacturing
+
 event_date: 2026-05-22T21:00:00
 publication_date: 2026-05-22T21:00:00
+
+draft: false
+featured: true
+weight: 1
+toc: true
+
+image: /images/jewelry-manufacturing.webp
+
+alt: "Close-up of a jeweler’s hands working with wax model and raw gold in a professional workshop."
+
+country: PT
+status: published
+
 tags:
   - jewelry manufacturing
   - jewelry workshop
   - wax carving
   - casting technologies
-  - jewelry tools
-  - craftsmanship
-  - jewelry archive
-  - manufacturing heritage
-  - jewelry research
-  - The Jewelry Business
-country: PT
-status: published
-featured: true
-image: /images/jewelry-manufacturing.webp
-alt: Close-up of a jeweler’s hands working with wax model and raw gold in a professional workshop on a seamless white background. Editorial aesthetic of The Jewelry Business.
-weight: 1
-draft: false
-toc: true
+
 categories:
   - Jewelry Manufacturing
   - Heritage
   - Research
+
 series:
   - The Jewelry Business
+
 authors:
   - Anna Pivtorak
+
 keywords:
   - jewelry manufacturing
   - jewelry craftsmanship
-  - wax carving
   - jewelry casting
-  - workshop culture
-  - jewelry archive
-  - jewelry technology
-  - jewelry production
-  - manufacturing heritage
-"translationKey:": " jewelry-manufacturing"
 ---
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
