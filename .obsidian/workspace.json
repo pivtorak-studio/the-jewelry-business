@@ -185,6 +185,8 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "layouts/index.html",
+    "layouts/New Text Document.txt",
     "static/css/style.css",
     "static/css/New Text Document.txt",
     "static/css",
@@ -194,8 +196,6 @@
     "layouts/New folder",
     "layouts/partials/header.html",
     "layouts/partials/main-menu.html",
-    "layouts/partials",
-    "layouts",
     "content/_index.uk.md",
     "content/_index.ru.md",
     "content/_index.pt.md",
