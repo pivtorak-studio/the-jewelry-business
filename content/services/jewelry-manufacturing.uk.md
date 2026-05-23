@@ -2,7 +2,7 @@
 id: jewelry-manufacturing
 language: uk
 translation_of: jewelry-manufacturing
-title: Jewelry Manufacturing
+title: Ювелірне Виробництво
 description: Технології, ремесло та спадщина ювелірного виробництва. Архів знань про інструменти, матеріали, процеси та культуру створення прикрас.
 "type:": services
 event_date: 2026-05-22T21:00:00
@@ -49,6 +49,7 @@ keywords:
   - jewelry archive
   - manufacturing heritage
   - jewelry production
+"translationKey:": " jewelry-manufacturing"
 ---
 <script type="application/ld+json">
 {

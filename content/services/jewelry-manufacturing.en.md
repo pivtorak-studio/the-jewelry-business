@@ -44,6 +44,7 @@ keywords:
   - jewelry technology
   - jewelry production
   - manufacturing heritage
+"translationKey:": " jewelry-manufacturing"
 ---
 <script type="application/ld+json">
 {
