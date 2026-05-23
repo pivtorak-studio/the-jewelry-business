@@ -185,6 +185,12 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "layouts/partials/main-menu.html",
+    "layouts/partials/New Text Document.txt",
+    "layouts/partials",
+    "layouts/New folder",
+    "layouts",
+    "New folder",
     "themes/hugo-serif/layouts/partials/New Text Document.txt",
     "content/_index.uk.md",
     "content/_index.ru.md",
@@ -216,12 +222,6 @@
     "content/uk/services/intelligence-and-heritage.uk.md",
     "content/uk/services/_index.uk.md",
     "content/services",
-    "content/New folder",
-    "content/en/services/New Text Document.txt",
-    "content/uk/services/New Text Document.txt",
-    "content/uk/services",
-    "content/uk/New folder",
-    "content/ru/services",
     "static/images/jewelry-manufacturing.webp"
   ]
 }
