@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/pt/services/_index.md",
+                "file": "content/services/_index.uk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "_index.uk"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/pt/services/_index.md",
+                "file": "content/services/_index.uk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для _index"
+              "title": "Зворотні посилання для _index.uk"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/pt/services/_index.md",
+                "file": "content/services/_index.uk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з _index"
+              "title": "Вихідні посилання з _index.uk"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/pt/services/_index.md",
+                "file": "content/services/_index.uk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст _index"
+              "title": "Вміст _index.uk"
             }
           }
         ]
@@ -185,42 +185,42 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
-    "content/ru/services/jewelry-manufacturing.md",
+    "content/services/_index.ru.md",
+    "content/services/_index.pt.md",
+    "content/services/_index.en.md",
+    "content/services/_index.uk.md",
+    "content/_index.md",
+    "content/New Text Document.txt",
+    "content/services/jewelry-manufacturing.uk.md",
+    "content/services/intelligence-and-heritage.uk.md",
+    "content/services/luxury-and-style.uk.md",
+    "content/uk/services/luxury-and-style.uk.md",
     "content/uk/services/jewelry-manufacturing.md",
-    "content/pt/services/jewelry-manufacturing.md",
-    "content/en/services/jewelry-manufacturing.md",
-    "content/uk/services/intelligence-and-heritage.md",
-    "content/uk/services/luxury-and-style.md",
-    "content/en/about/mission.md",
-    "content/uk/services/_index.md",
-    "content/ru/services/_index.md",
+    "content/uk/services/jewelry-manufacturing.uk.md",
+    "content/uk/services/intelligence-and-heritage.uk.md",
+    "content/uk/services/_index.uk.md",
+    "content/services/luxury-and-style.ru.md",
+    "content/services/jewelry-manufacturing.ru.md",
+    "content/services/intelligence-and-heritage.ru.md",
+    "content/ru/services/_index.ru.md",
+    "content/ru/services/luxury-and-style.ru.md",
+    "content/ru/services/jewelry-manufacturing.md",
+    "content/ru/services/jewelry-manufacturing.ru.md",
+    "content/ru/services/intelligence-and-heritage.ru.md",
+    "content/services/luxury-and-style.pt.md",
+    "content/services/jewelry-manufacturing.pt.md",
+    "content/services/intelligence-and-heritage.pt.md",
     "content/pt/services/_index.md",
-    "content/en/services/_index.md",
+    "content/pt/services/_index.pt.md",
+    "content/services",
+    "content/New folder",
     "content/en/services/New Text Document.txt",
-    "content/en/_index.md",
-    "content/ru/services/intelligence-and-heritage.md",
-    "content/ru/services/luxury-and-style.md",
-    "content/uk/jewelry-manufacturing/_index.md",
     "content/uk/services/New Text Document.txt",
     "content/uk/services",
     "content/uk/New folder",
     "content/ru/services",
     "content/ru/New folder",
-    "content/ru/jewelry-manufacturing.md",
-    "content/ru/jewelry-manufacturing/_index.md",
-    "content/ru/jewelry-manufacturing/jewelry-manufacturing.md",
-    "content/en/services/luxury-and-style.md",
-    "content/en/services/intelligence-and-heritage.md",
-    "content/pt/services/luxury-and-style.md",
     "content/pt/services/New Text Document.txt",
-    "content/pt/services/intelligence-and-heritage.md",
-    "content/pt/jewelry-manufacturing/_index.md",
-    "content/pt/jewelry-manufacturing/jewelry-manufacturing.md",
-    "content/pt/services",
-    "content/pt/New folder",
-    "content/en/jewelry-manufacturing.md",
-    "content/en/services",
-    "content/en/jewelry-manufacturing/_index.md",
     "static/images/jewelry-manufacturing.webp"
   ]
 }
