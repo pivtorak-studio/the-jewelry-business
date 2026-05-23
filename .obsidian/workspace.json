@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/services/jewelry-manufacturing.en.md",
+                "file": "content/services/jewelry-manufacturing.ru.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jewelry-manufacturing.en"
+              "title": "jewelry-manufacturing.ru"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/services/jewelry-manufacturing.en.md",
+                "file": "content/services/jewelry-manufacturing.ru.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для jewelry-manufacturing.en"
+              "title": "Зворотні посилання для jewelry-manufacturing.ru"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/services/jewelry-manufacturing.en.md",
+                "file": "content/services/jewelry-manufacturing.ru.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з jewelry-manufacturing.en"
+              "title": "Вихідні посилання з jewelry-manufacturing.ru"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/services/jewelry-manufacturing.en.md",
+                "file": "content/services/jewelry-manufacturing.ru.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст jewelry-manufacturing.en"
+              "title": "Вміст jewelry-manufacturing.ru"
             }
           }
         ]
@@ -185,34 +185,36 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
-    "content/services/jewelry-manufacturing.pt.md",
-    "content/services/jewelry-manufacturing.en.md",
+    "content/services/jewelry-manufacturing.uk.md",
+    "content/services/luxury-and-style.en.md",
+    "content/services/luxury-and-style.pt.md",
+    "content/services/luxury-and-style.ru.md",
+    "content/services/luxury-and-style.uk.md",
+    "content/_index.en.md",
+    "content/_index.pt.md",
+    "content/_index.ru.md",
     "content/_index.uk.md",
+    "themes/hugo-serif/images/tn.png",
+    "themes/hugo-serif/README.md",
+    "README.md",
+    "content/services/jewelry-manufacturing.en.md",
+    "content/services/jewelry-manufacturing.pt.md",
     "themes/hugo-serif/layouts/single.html",
     "themes/hugo-serif/layouts/New Text Document.txt",
-    "content/_index.ru.md",
-    "content/_index.pt.md",
-    "content/_index.en.md",
     "content/services/jewelry-manufacturing.ru.md",
     "content/New Text Document.txt",
-    "content/services/jewelry-manufacturing.uk.md",
     "content/services/_index.uk.md",
     "content/services/_index.ru.md",
     "content/services/_index.pt.md",
     "content/services/_index.en.md",
     "content/_index.md",
     "content/services/intelligence-and-heritage.uk.md",
-    "content/services/luxury-and-style.uk.md",
     "content/uk/services/luxury-and-style.uk.md",
     "content/uk/services/jewelry-manufacturing.md",
     "content/uk/services/jewelry-manufacturing.uk.md",
     "content/uk/services/intelligence-and-heritage.uk.md",
     "content/uk/services/_index.uk.md",
-    "content/services/luxury-and-style.ru.md",
     "content/services/intelligence-and-heritage.ru.md",
-    "content/ru/services/_index.ru.md",
-    "content/ru/services/luxury-and-style.ru.md",
-    "content/ru/services/jewelry-manufacturing.md",
     "content/services",
     "content/New folder",
     "content/en/services/New Text Document.txt",
