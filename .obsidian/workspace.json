@@ -185,6 +185,8 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "themes/hugo-serif/layouts/single.html",
+    "themes/hugo-serif/layouts/New Text Document.txt",
     "content/_index.ru.md",
     "content/_index.pt.md",
     "content/_index.en.md",
@@ -211,7 +213,6 @@
     "content/ru/services/_index.ru.md",
     "content/ru/services/luxury-and-style.ru.md",
     "content/ru/services/jewelry-manufacturing.md",
-    "content/ru/services/jewelry-manufacturing.ru.md",
     "content/services",
     "content/New folder",
     "content/en/services/New Text Document.txt",
@@ -220,7 +221,6 @@
     "content/uk/New folder",
     "content/ru/services",
     "content/ru/New folder",
-    "content/pt/services/New Text Document.txt",
     "static/images/jewelry-manufacturing.webp"
   ]
 }
