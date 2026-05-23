@@ -1,3 +1,30 @@
-<div style="padding:20px;background:red;color:white;font-size:30px;">
-TEST LANGUAGE SWITCHER
+<div id="main-menu" class="main-menu">
+
+  <ul>
+
+    {{ $currentPage := . }}
+
+    {{ range .Site.Menus.main }}
+
+      <li>
+
+        <a href="{{ .URL | relLangURL }}">
+          {{ .Name }}
+        </a>
+
+      </li>
+
+    {{ end }}
+
+  </ul>
+
+</div>
+
+<div style="padding-top:10px;font-size:14px;">
+
+  <a href="/">EN</a> |
+  <a href="/uk/">UA</a> |
+  <a href="/pt/">PT</a> |
+  <a href="/ru/">RU</a>
+
 </div>
