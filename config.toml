@@ -156,7 +156,3 @@ defaultContentLanguageInSubdir = false
 #   url = "/ru/calculators/"
 #   weight = 5
 
-[[menu.main]]
-name = "🧮 Calculators & Converters"
-url = "/calculators/"
-weight = 5
