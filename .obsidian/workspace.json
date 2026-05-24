@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/calculators/_index.pt.md",
+                "file": "content/calculators/_index.uk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index.pt"
+              "title": "_index.uk"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/calculators/_index.pt.md",
+                "file": "content/calculators/_index.uk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для _index.pt"
+              "title": "Зворотні посилання для _index.uk"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/calculators/_index.pt.md",
+                "file": "content/calculators/_index.uk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з _index.pt"
+              "title": "Вихідні посилання з _index.uk"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/calculators/_index.pt.md",
+                "file": "content/calculators/_index.uk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст _index.pt"
+              "title": "Вміст _index.uk"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/calculators/_index.pt.md",
     "content/calculators/_index.uk.md",
     "content/calculators/_index.en.md",
     "content/services/jewelry-manufacturing/_index.en.md",
@@ -214,7 +215,6 @@
     "content/calculators/_index.ru.md",
     "layouts/_default/list.html",
     "layouts/_default/New Text Document.txt",
-    "content/calculators/_index.pt.md",
     "content/calculators/New Text Document.txt",
     "content/calculators/stone-size-calculator.md",
     "content/calculators/wire-gauge-converter.md",

@@ -156,3 +156,7 @@ defaultContentLanguageInSubdir = false
 #   url = "/ru/calculators/"
 #   weight = 5
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
