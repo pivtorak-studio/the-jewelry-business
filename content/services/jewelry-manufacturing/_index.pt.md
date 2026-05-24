@@ -2,7 +2,7 @@
 id: jewelry-manufacturing
 language: pt
 translation_of: jewelry-manufacturing
-title: Fabricação de Joias
+title: Fabricação de joalharia
 description: Tecnologia, artesanato e património da fabricação de joalharia. Um arquivo de investigação dedicado a ferramentas, materiais, processos de produção e cultura das oficinas.
 "type:": services
 event_date: 2026-05-22T21:00:00
@@ -98,17 +98,7 @@ hero_image: /images/jewelry-manufacturing.webp
 }
 </script>
 
-<div class="float-right">
-
-![Jewelry Manufacturing](/images/jewelry-manufacturing.webp)
-
-</div>
-
-# Jewelry Manufacturing
-
-## Tecnologia. Artesanato. Património.
-
-Jewelry Manufacturing é uma divisão de investigação do The Jewelry Business dedicada ao lado técnico da arte joalheira — desde o trabalho artesanal tradicional e fundição até aos sistemas modernos de produção e tecnologias digitais.
+<div class="article-hero"> <div class="article-hero-text"> <h1>Fabricação de Joalharia</h1> <p class="intro-p"> <strong>Tecnologia. Artesanato. Património.</strong><br><br> Fabricação de Joalharia é uma divisão de investigação do The Jewelry Business dedicada ao lado técnico da arte joalheira — desde o trabalho artesanal tradicional e fundição até aos sistemas modernos de produção e tecnologias digitais. </p> </div> <div class="article-hero-image"> <img src="/images/jewelry-manufacturing.webp" alt="Jewelry workshop and manufacturing process"> </div> </div>
 
 Esta secção foi criada para:
 - joalheiros;
