@@ -276,3 +276,39 @@ main img {
     max-width: 100%;
   }
 }
+
+/* =========================================
+   DEVELOPMENT NOTICE
+========================================= */
+
+.dev-notice {
+  margin-top: 40px;
+  padding: 22px 26px;
+
+  background: #fff8db;
+
+  border: 1px solid #e7d48c;
+  border-left: 6px solid #c7a93b;
+
+  border-radius: 10px;
+
+  font-size: 15px;
+  line-height: 1.7;
+
+  color: #5b4b18;
+}
+
+.dev-notice strong {
+  display: block;
+  margin-bottom: 10px;
+
+  font-size: 17px;
+}
+
+.dev-notice p {
+  margin: 0 0 16px 0;
+}
+
+.dev-notice p:last-child {
+  margin-bottom: 0;
+}
