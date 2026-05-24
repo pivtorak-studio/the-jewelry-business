@@ -227,3 +227,52 @@ main img {
 .image-medium img {
   max-width: 760px;
 }
+
+/* =========================
+   HERO GRID
+========================= */
+
+.hero-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 60px;
+
+  align-items: center;
+
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.hero-text {
+  max-width: 620px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 760px;
+
+  height: auto;
+
+  display: block;
+}
+
+/* Mobile */
+
+@media (max-width: 1000px) {
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+  }
+}
