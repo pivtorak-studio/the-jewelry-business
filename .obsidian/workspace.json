@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/calculators/_index.ru.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index.en"
+              "title": "_index.ru"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/calculators/_index.ru.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для _index.en"
+              "title": "Зворотні посилання для _index.ru"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/calculators/_index.ru.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з _index.en"
+              "title": "Вихідні посилання з _index.ru"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/calculators/_index.ru.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст _index.en"
+              "title": "Вміст _index.ru"
             }
           }
         ]
@@ -185,13 +185,25 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/calculators/_index.pt.md",
+    "content/calculators/_index.ru.md",
+    "content/calculators/_index.uk.md",
+    "content/calculators/_index.en.md",
+    "content/_index.en.md",
+    "content/calculators/New Text Document.txt",
+    "content/calculators/stone-size-calculator.md",
+    "content/calculators/wire-gauge-converter.md",
+    "content/calculators/metal-price-calculator.md",
+    "content/calculators/ring-size-converter.md",
+    "content/calculators/gold-weight-converter.md",
+    "content/calculators",
+    "content/New folder",
     "layouts/partials/search-button.html",
     "layouts/partials/New Text Document.txt",
     "static/images/the-jewelry-business.webp",
     "static/images/Unconfirmed 977054.crdownload",
     "content/services/jewelry-manufacturing.en.md",
     "content/services/jewelry-manufacturing.pt.md",
-    "content/_index.en.md",
     "content/_index.ru.md",
     "layouts/partials/footer.html",
     "content/_index.uk.md",
@@ -202,10 +214,6 @@
     "layouts/index.html",
     "layouts/New Text Document.txt",
     "static/css/style.css",
-    "static/css/New Text Document.txt",
-    "static/css",
-    "static/New folder",
-    "layouts/_default/baseof.html",
     "content/services/luxury-and-style.pt.md",
     "content/services/jewelry-manufacturing.ru.md",
     "content/services/jewelry-manufacturing.uk.md",
@@ -215,14 +223,6 @@
     "content/services/_index.uk.md",
     "content/services/_index.ru.md",
     "content/services/_index.pt.md",
-    "content/services/_index.en.md",
-    "content/_index.md",
-    "content/services/intelligence-and-heritage.uk.md",
-    "content/uk/services/luxury-and-style.uk.md",
-    "content/uk/services/jewelry-manufacturing.md",
-    "content/uk/services/jewelry-manufacturing.uk.md",
-    "content/uk/services/intelligence-and-heritage.uk.md",
-    "content/uk/services/_index.uk.md",
     "static/images/jewelry-manufacturing.webp"
   ]
 }
