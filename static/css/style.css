@@ -358,3 +358,14 @@ main img {
     font-size: 36px;
   }
 }
+
+/* =========================================
+   DISABLE THEME AUTO HERO
+========================================= */
+
+.page-services-single .service-single-image,
+.page-services-single .service-image,
+.page-services-single .intro-image,
+.page-services-single .hero-image {
+  display: none !important;
+}
