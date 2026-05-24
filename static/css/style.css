@@ -186,3 +186,41 @@ footer {
   }
 
 }
+
+/* =========================
+   GLOBAL IMAGE SYSTEM
+========================= */
+
+main img {
+  display: block;
+  width: 100%;
+  max-width: 920px;
+  height: auto;
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  border-radius: 10px;
+
+  object-fit: cover;
+}
+
+/* Hero Images */
+
+.hero img,
+.float-right img {
+  max-width: 680px;
+}
+
+/* Article images */
+
+.article img {
+  max-width: 920px;
+}
+
+/* Centered image layout */
+
+main img {
+  margin-left: auto;
+  margin-right: auto;
+}
