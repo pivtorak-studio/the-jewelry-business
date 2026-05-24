@@ -51,47 +51,107 @@ defaultContentLanguageInSubdir = false
 
 # --- АНГЛІЙСЬКЕ МЕНЮ ---
 [[languages.en.menu.main]]
-  name = "Home"
+  name = "🏛️ The Jewelry Business"
   url = "/"
   weight = 1
 
 [[languages.en.menu.main]]
-  name = "Manufacturing"
-  url = "/services/jewelry-manufacturing/"  # Додали /services/
+  name = "🛠️ Manufacturing"
+  url = "/services/jewelry-manufacturing/"
   weight = 2
+
+[[languages.en.menu.main]]
+  name = "💎 Luxury & Style"
+  url = "/services/luxury-and-style/"
+  weight = 3
+
+[[languages.en.menu.main]]
+  name = "📜 Intelligence & Heritage"
+  url = "/services/intelligence-and-heritage/"
+  weight = 4
+
+[[languages.en.menu.main]]
+  name = "🧮 Calculators & Converters"
+  url = "/calculators/"
+  weight = 5
 
 # --- УКРАЇНСЬКЕ МЕНЮ ---
 [[languages.uk.menu.main]]
-  name = "Головна"
+  name = "🏛️ Ювелірний Бізнес"
   url = "/uk/"
   weight = 1
 
 [[languages.uk.menu.main]]
-  name = "Виробництво"
-  url = "/uk/services/jewelry-manufacturing/"  # Посилання на український файл
+  name = "🛠️ Виробництво"
+  url = "/uk/services/jewelry-manufacturing/"
   weight = 2
+
+[[languages.uk.menu.main]]
+  name = "💎 Розкіш та Стиль"
+  url = "/uk/services/luxury-and-style/"
+  weight = 3
+
+[[languages.uk.menu.main]]
+  name = "📜 Спадщина та Дослідження"
+  url = "/uk/services/intelligence-and-heritage/"
+  weight = 4
+
+[[languages.uk.menu.main]]
+  name = "🧮 Калькулятори"
+  url = "/uk/calculators/"
+  weight = 5
 
 # --- ПОРТУГАЛЬСЬКЕ МЕНЮ ---
 [[languages.pt.menu.main]]
-  name = "Início"
+  name = "🏛️ O Negócio de Joalharia"
   url = "/pt/"
   weight = 1
 
 [[languages.pt.menu.main]]
-  name = "Fabricação"
-  url = "/pt/services/jewelry-manufacturing/"  # Посилання на португальський файл
+  name = "🛠️ Fabricação"
+  url = "/pt/services/jewelry-manufacturing/"
   weight = 2
+
+[[languages.pt.menu.main]]
+  name = "💎 Luxo & Estilo"
+  url = "/pt/services/luxury-and-style/"
+  weight = 3
+
+[[languages.pt.menu.main]]
+  name = "📜 Património & Investigação"
+  url = "/pt/services/intelligence-and-heritage/"
+  weight = 4
+
+[[languages.pt.menu.main]]
+  name = "🧮 Calculadoras"
+  url = "/pt/calculators/"
+  weight = 5
 
 # Російське меню тимчасово закоментовано. 
   # Для активації просто видаліть символ "#" з початку наступних рядків:
 
 # --- РОСІЙСЬКЕ МЕНЮ ---
 # [[languages.ru.menu.main]]
-#  name = "Главная"
+#  name = "🏛️ Ювелирный Бизнес"
 #  url = "/ru/"
 #  weight = 1
 
 # [[languages.ru.menu.main]]
-#  name = "Производство"
+#  name = "🛠️ Производство"
 #  url = "/ru/services/jewelry-manufacturing/"  # Посилання на російський файл
 #  weight = 2
+
+# [[languages.ru.menu.main]]
+#   name = "💎 Роскошь и Стиль"
+#   url = "/ru/services/luxury-and-style/"
+#   weight = 3
+
+# [[languages.ru.menu.main]]
+#   name = "📜 Наследие и Исследования"
+#   url = "/ru/services/intelligence-and-heritage/"
+#   weight = 4
+
+# [[languages.ru.menu.main]]
+#   name = "🧮 Калькуляторы"
+#   url = "/ru/calculators/"
+#   weight = 5
