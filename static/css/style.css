@@ -191,36 +191,45 @@ footer {
    GLOBAL IMAGE SYSTEM
 ========================= */
 
+/* Default editorial images */
+
 main img {
   display: block;
+
   width: 100%;
-  max-width: 920px;
+  max-width: 1200px;
+
   height: auto;
 
   margin-top: 3rem;
   margin-bottom: 3rem;
 
-  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 
-  object-fit: cover;
+  border-radius: 12px;
 }
 
-/* Hero Images */
+/* Hero images */
 
 .hero img,
 .float-right img {
-  max-width: 680px;
+  max-width: 1200px;
 }
 
-/* Article images */
+/* Small technical images */
 
-.article img {
-  max-width: 920px;
+.image-small img,
+.small-image img,
+.step-image img {
+  max-width: 420px;
+
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-/* Centered image layout */
+/* Medium images */
 
-main img {
-  margin-left: auto;
-  margin-right: auto;
+.image-medium img {
+  max-width: 760px;
 }
