@@ -155,3 +155,8 @@ defaultContentLanguageInSubdir = false
 #   name = "🧮 Калькуляторы и Конвертеры"
 #   url = "/ru/calculators/"
 #   weight = 5
+
+[[menu.main]]
+name = "🧮 Calculators & Converters"
+url = "/calculators/"
+weight = 5
