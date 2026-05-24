@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/services/jewelry-manufacturing/_index.en.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/services/jewelry-manufacturing/_index.en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/services/jewelry-manufacturing/_index.en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/services/jewelry-manufacturing/_index.en.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,6 +185,11 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/services/jewelry-manufacturing/_index.pt.md",
+    "content/services/jewelry-manufacturing/_index.ru.md",
+    "content/services/jewelry-manufacturing/_index.uk.md",
+    "content/services/jewelry-manufacturing/_index.en.md",
+    "content/_index.en.md",
     "content/services/luxury-and-style/_index.uk.md",
     "content/services/_index.uk.md",
     "content/services/luxury-and-style/_index.ru.md",
@@ -197,10 +202,6 @@
     "content/services/intelligence-and-heritage/_index.ru.md",
     "content/services/intelligence-and-heritage/_index.pt.md",
     "content/services/intelligence-and-heritage/_index.en.md",
-    "content/services/jewelry-manufacturing/_index.uk.md",
-    "content/services/jewelry-manufacturing/_index.ru.md",
-    "content/services/jewelry-manufacturing/_index.pt.md",
-    "content/services/jewelry-manufacturing/_index.en.md",
     "content/services/jewelry-manufacturing.en.md",
     "content/services/luxury-and-style",
     "content/services/New folder",
@@ -208,7 +209,6 @@
     "content/services/jewelry-manufacturing.txt",
     "content/services/New Text Document.txt",
     "content/services/intelligence-and-heritage",
-    "content/_index.en.md",
     "content/calculators/_index.ru.md",
     "layouts/_default/list.html",
     "layouts/_default/New Text Document.txt",

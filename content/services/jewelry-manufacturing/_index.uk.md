@@ -49,7 +49,8 @@ keywords:
   - jewelry archive
   - manufacturing heritage
   - jewelry production
-"translationKey:": " jewelry-manufacturing"
+translationKey: " jewelry-manufacturing"
+hero_image: /images/jewelry-manufacturing.webp
 ---
 <script type="application/ld+json">
 {

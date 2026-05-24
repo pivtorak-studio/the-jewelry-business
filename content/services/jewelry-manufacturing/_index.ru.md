@@ -48,7 +48,8 @@ keywords:
   - архив ювелирного искусства
   - технологии ювелирного производства
   - наследие производства
-"translationKey:": " jewelry-manufacturing"
+translationKey: " jewelry-manufacturing"
+hero_image: /images/jewelry-manufacturing.webp
 ---
 <script type="application/ld+json">
 {

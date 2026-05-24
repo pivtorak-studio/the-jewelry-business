@@ -48,7 +48,8 @@ keywords:
   - arquivo de joalharia
   - tecnologia joalheira
   - património de produção
-"translationKey:": " jewelry-manufacturing"
+translationKey: " jewelry-manufacturing"
+hero_image: /images/jewelry-manufacturing.webp
 ---
 <script type="application/ld+json">
 {

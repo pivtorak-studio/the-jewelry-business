@@ -1,52 +1,39 @@
 ---
-title: "Jewelry Manufacturing"
-
-description: "Technology, craftsmanship, and the heritage of jewelry manufacturing."
-
+title: Jewelry Manufacturing
+description: Technology, craftsmanship, and the heritage of jewelry manufacturing.
 type: services
 layout: single
-
 translationKey: jewelry-manufacturing
-
 id: jewelry-manufacturing
 language: en
-
 event_date: 2026-05-22T21:00:00
 publication_date: 2026-05-22T21:00:00
-
 draft: false
 featured: true
 weight: 1
 toc: true
-
 image: /images/jewelry-manufacturing.webp
-
-alt: "Close-up of a jeweler’s hands working with wax model and raw gold in a professional workshop."
-
+alt: Close-up of a jeweler’s hands working with wax model and raw gold in a professional workshop.
 country: PT
 status: published
-
 tags:
   - jewelry manufacturing
   - jewelry workshop
   - wax carving
   - casting technologies
-
 categories:
   - Jewelry Manufacturing
   - Heritage
   - Research
-
 series:
   - The Jewelry Business
-
 authors:
   - Anna Pivtorak
-
 keywords:
   - jewelry manufacturing
   - jewelry craftsmanship
   - jewelry casting
+hero_image: /images/jewelry-manufacturing.webp
 ---
 
 <script type="application/ld+json">
