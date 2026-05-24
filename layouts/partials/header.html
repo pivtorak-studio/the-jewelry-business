@@ -1,3 +1,67 @@
-<div style="background:red;color:white;padding:40px;font-size:40px;">
-ROOT HEADER OVERRIDE TEST
-</div>
+<header>
+
+  <div class="logo">
+
+    <a href="{{ .Site.Home.RelPermalink }}">
+
+      {{ if .Site.Params.logo_desktop }}
+        <img
+          src="{{ .Site.Params.logo_desktop | relURL }}"
+          alt="{{ .Site.Title }}">
+      {{ else }}
+        {{ .Site.Title }}
+      {{ end }}
+
+    </a>
+
+  </div>
+
+  <div class="header-right">
+
+    <nav>
+
+      <ul>
+
+        {{ range .Site.Menus.main }}
+
+        <li>
+          <a href="{{ .URL | relLangURL }}">
+            {{ .Name }}
+          </a>
+        </li>
+
+        {{ end }}
+
+      </ul>
+
+    </nav>
+
+    <div class="language-switcher">
+
+      <a href="/"
+         class="{{ if eq .Site.Language.Lang "en" }}active{{ end }}">
+         EN
+      </a>
+
+      <a href="/uk/"
+         class="{{ if eq .Site.Language.Lang "uk" }}active{{ end }}">
+         UA
+      </a>
+
+      <a href="/pt/"
+         class="{{ if eq .Site.Language.Lang "pt" }}active{{ end }}">
+         PT
+      </a>
+
+{{/*
+      <a href="/ru/"
+         class="{{ if eq .Site.Language.Lang "ru" }}active{{ end }}">
+         RU
+      </a>
+*/}}
+
+    </div>
+
+  </div>
+
+</header>
