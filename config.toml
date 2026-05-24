@@ -97,7 +97,7 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[languages.uk.menu.main]]
-  name = "🧮 Калькулятори"
+  name = "🧮 Калькулятори та Конвертери"
   url = "/uk/calculators/"
   weight = 5
 
@@ -123,7 +123,7 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[languages.pt.menu.main]]
-  name = "🧮 Calculadoras"
+  name = "🧮 Calculadoras e Conversores"
   url = "/pt/calculators/"
   weight = 5
 
@@ -152,6 +152,6 @@ defaultContentLanguageInSubdir = false
 #   weight = 4
 
 # [[languages.ru.menu.main]]
-#   name = "🧮 Калькуляторы"
+#   name = "🧮 Калькуляторы и Конвертеры"
 #   url = "/ru/calculators/"
 #   weight = 5
