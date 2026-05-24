@@ -185,6 +185,8 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "layouts/partials/search-button.html",
+    "layouts/partials/New Text Document.txt",
     "static/images/the-jewelry-business.webp",
     "static/images/Unconfirmed 977054.crdownload",
     "content/services/jewelry-manufacturing.en.md",
@@ -204,7 +206,6 @@
     "static/css",
     "static/New folder",
     "layouts/_default/baseof.html",
-    "layouts/_default",
     "content/services/luxury-and-style.pt.md",
     "content/services/jewelry-manufacturing.ru.md",
     "content/services/jewelry-manufacturing.uk.md",
