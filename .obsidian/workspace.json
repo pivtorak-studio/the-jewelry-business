@@ -185,6 +185,8 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "layouts/_default/list.html",
+    "layouts/_default/New Text Document.txt",
     "content/calculators/_index.pt.md",
     "content/calculators/_index.uk.md",
     "content/calculators/_index.en.md",
@@ -213,7 +215,6 @@
     "README.md",
     "layouts/index.html",
     "layouts/New Text Document.txt",
-    "static/css/style.css",
     "content/services/luxury-and-style.pt.md",
     "content/services/jewelry-manufacturing.ru.md",
     "content/services/jewelry-manufacturing.uk.md",
@@ -222,7 +223,6 @@
     "themes/hugo-serif/README.md",
     "content/services/_index.uk.md",
     "content/services/_index.ru.md",
-    "content/services/_index.pt.md",
     "static/images/jewelry-manufacturing.webp"
   ]
 }
