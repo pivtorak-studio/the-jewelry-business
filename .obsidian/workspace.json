@@ -185,8 +185,9 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
-    "layouts/services/list.html",
+    "layouts/services/single.html",
     "layouts/services/New Text Document.txt",
+    "layouts/services/list.html",
     "layouts/services",
     "layouts/New folder",
     "content/calculators/_index.uk.md",
@@ -217,7 +218,6 @@
     "content/services/New Text Document.txt",
     "content/services/intelligence-and-heritage",
     "content/calculators/_index.ru.md",
-    "layouts/_default/list.html",
     "content/calculators/stone-size-calculator.md",
     "content/calculators/wire-gauge-converter.md",
     "content/calculators/metal-price-calculator.md",
