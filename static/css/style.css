@@ -384,8 +384,8 @@ main img {
 /* Модернізована банерна зона без ефекту схлопування марджинів */
 .ad-slot-top {
   width: 100%;
-  max-width: 1320px; /* Ідеально вписується у внутрішню ширину .wrapper */
-  margin: 0 auto 40px auto; /* Прибрали верхній марджин, залишили тільки нижній відступ до статті */
+  max-width: 100%; /* Ідеально вписується у внутрішню ширину .wrapper */
+  margin: 0 0 40px 0; /* Прибрали верхній марджин, залишили тільки нижній відступ до статті */
   padding: 0;
   min-height: 90px;
   background: #fafafa;
@@ -399,6 +399,7 @@ main img {
   text-transform: uppercase;
   letter-spacing: 1px;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 /* Оновлена сітка для внутрішніх сторінок — тепер вона синхронізована з головною */
