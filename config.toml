@@ -113,12 +113,12 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[languages.pt.menu.main]]
-  name = "💎 Luxo & Estilo"
+  name = "💎 Luxo e Estilo"
   url = "/pt/services/luxury-and-style/"
   weight = 3
 
 [[languages.pt.menu.main]]
-  name = "📜 Património & Investigação"
+  name = "📜 Património e Investigação"
   url = "/pt/services/intelligence-and-heritage/"
   weight = 4
 
