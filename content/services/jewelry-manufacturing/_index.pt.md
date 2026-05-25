@@ -98,6 +98,8 @@ hero_image: /images/jewelry-manufacturing.webp
 }
 </script>
 
+<div class="ad-slot-top"> <span>Advertisement / Research Archive Partner Area</span> </div>
+
 <div class="article-hero"> <div class="article-hero-text"> <h1>Fabricação de Joalharia</h1> <p class="intro-p"> <strong>Tecnologia. Artesanato. Património.</strong><br><br> Fabricação de Joalharia é uma divisão de investigação do The Jewelry Business dedicada ao lado técnico da arte joalheira — desde o trabalho artesanal tradicional e fundição até aos sistemas modernos de produção e tecnologias digitais. </p> </div> <div class="article-hero-image"> <img src="/images/jewelry-manufacturing.webp" alt="Jewelry workshop and manufacturing process"> </div> </div>
 
 Esta secção foi criada para:

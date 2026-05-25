@@ -99,6 +99,8 @@ hero_image: /images/jewelry-manufacturing.webp
 }
 </script>
 
+<div class="ad-slot-top"> <span>Advertisement / Research Archive Partner Area</span> </div>
+
 <div class="article-hero"> <div class="article-hero-text"> <h1>Ювелірне Виробництво</h1> <p class="intro-p"> <strong>Технології. Ремесло. Спадщина.</strong><br><br> Ювелірне Виробництво — дослідницький напрям The Jewelry Business, присвячений технічній стороні ювелірного мистецтва: від ручних інструментів і лиття до сучасних виробничих процесів та цифрових технологій. </p> </div> <div class="article-hero-image"> <img src="/images/jewelry-manufacturing.webp" alt="Jewelry workshop and manufacturing process"> </div> </div>
 
 Цей розділ створений для:
