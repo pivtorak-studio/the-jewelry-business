@@ -2,7 +2,6 @@
 title: Jewelry Manufacturing
 description: Technology, craftsmanship, and the heritage of jewelry manufacturing.
 type: services
-layout: single
 translationKey: jewelry-manufacturing
 id: jewelry-manufacturing
 language: en

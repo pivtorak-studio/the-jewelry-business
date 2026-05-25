@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.uk.md",
+                "file": "content/services/jewelry-manufacturing/_index.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index.uk"
+              "title": "_index.en"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/_index.uk.md",
+                "file": "content/services/jewelry-manufacturing/_index.en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для _index.uk"
+              "title": "Зворотні посилання для _index.en"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/_index.uk.md",
+                "file": "content/services/jewelry-manufacturing/_index.en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з _index.uk"
+              "title": "Вихідні посилання з _index.en"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/_index.uk.md",
+                "file": "content/services/jewelry-manufacturing/_index.en.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст _index.uk"
+              "title": "Вміст _index.en"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/_index.uk.md",
     "content/_index.ru.md",
     "content/_index.pt.md",
     "content/_index.en.md",
@@ -209,7 +210,6 @@
     "content/calculators/_index.ru.md",
     "content/calculators/_index.pt.md",
     "content/calculators/_index.en.md",
-    "content/_index.uk.md",
     "layouts/partials/hero.html",
     "layouts/partials/New Text Document.txt",
     "layouts/services/single.html",
