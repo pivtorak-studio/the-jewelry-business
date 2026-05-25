@@ -103,7 +103,7 @@ defaultContentLanguageInSubdir = false
 
 # --- ПОРТУГАЛЬСЬКЕ МЕНЮ ---
 [[languages.pt.menu.main]]
-  name = "🏛️ O Negócio de Joalharia"
+  name = "🏛️ O Negócio da Joalharia"
   url = "/pt/"
   weight = 1
 
