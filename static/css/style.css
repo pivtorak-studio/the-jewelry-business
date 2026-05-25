@@ -319,36 +319,7 @@ main img {
    ARTICLE HERO SYSTEM (50/50 Layout for Pages)
 ========================================= */
 
-.article-hero {
-  display: grid;
-  grid-template-columns: 1.1fr 1fr; /* Ліва частина трохи ширша для тексту */
-  gap: 50px;
-  align-items: start; /* Рівняння по верхньому краю */
-  margin-top: 20px;
-  margin-bottom: 50px;
-}
 
-.article-hero-text h1 {
-  margin-top: 0;
-  font-size: 52px; /* Трохи компактніший за головний для внутрішніх сторінок */
-  line-height: 1.1;
-  margin-bottom: 24px;
-}
-
-.article-hero-text .intro-p {
-  font-size: 18px;
-  line-height: 1.7;
-  color: #444;
-  margin-bottom: 0;
-}
-
-.article-hero-image img {
-  width: 100%;
-  max-width: 600px; /* Обмежуємо до середнього преміального розміру */
-  height: auto;
-  margin: 0 !important; /* Скасовуємо центрування та відступи теми */
-  border-radius: 8px;
-}
 
 /* Мобільна адаптація: на телефонах картинка падає під текст */
 @media (max-width: 900px) {
