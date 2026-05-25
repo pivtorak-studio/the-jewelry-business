@@ -1,9 +1,9 @@
 ---
-title: The Jewelry Business
+title: Ювелірний Бізнес
 draft: false
 description: Дослідження, спадщина, ремесло та ювелірна культура
 ---
-# The Jewelry Business
+# Ювелірний Бізнес
 
 Дослідження. Спадщина. Ремесло.
 

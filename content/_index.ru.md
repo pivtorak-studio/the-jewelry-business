@@ -1,9 +1,9 @@
 ---
-title: The Jewelry Business
+title: Ювелирный Бизнес
 draft:
 description: Исследование, наследие и культура ювелирного искусства
 ---
-# The Jewelry Business
+# Ювелирный Бизнес
 
 Исследование. Наследие. Ремесло.
 

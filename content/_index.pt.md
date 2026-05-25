@@ -1,9 +1,9 @@
 ---
-title: The Jewelry Business
+title: O Negócio da Joalharia
 draft: false
 description: Pesquisa, herança, artesanato e cultura joalheira
 ---
-# The Jewelry Business
+# O Negócio da Joalharia
 
 Pesquisa. Herança. Artesanato.
 
