@@ -3,7 +3,11 @@ title: The Jewelry Business
 draft:
 description: Исследование, наследие и культура ювелирного искусства
 ---
-<div class="wrapper"> <div class="ad-slot-top"> <span>Advertisement / Research Archive Partner Area</span> </div> </div>
+<div class="ad-slot-top">
+  <span>
+    Advertisement / Research Archive Partner Area
+  </span>
+</div>
 
 # The Jewelry Business
 
