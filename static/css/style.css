@@ -1,9 +1,4 @@
 /* Глобальна стабілізація розмірів сайту */
-*,
-*::before,
-*::after {
-  box-sizing: border-box !important;
-}
 
 :root {
   --primary-color: #1f1f1f;
