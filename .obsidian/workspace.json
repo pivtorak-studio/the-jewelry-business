@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/services/jewelry-manufacturing/_index.uk.md",
+                "file": "content/_index.uk.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/services/jewelry-manufacturing/_index.uk.md",
+                "file": "content/_index.uk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/services/jewelry-manufacturing/_index.uk.md",
+                "file": "content/_index.uk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/services/jewelry-manufacturing/_index.uk.md",
+                "file": "content/_index.uk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,11 +185,11 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
-    "content/_index.en.md",
-    "content/_index.pt.md",
     "content/_index.ru.md",
-    "content/_index.uk.md",
+    "content/_index.pt.md",
+    "content/_index.en.md",
     "content/services/jewelry-manufacturing/_index.uk.md",
+    "content/_index.uk.md",
     "content/services/jewelry-manufacturing/_index.ru.md",
     "content/services/jewelry-manufacturing/_index.pt.md",
     "content/services/jewelry-manufacturing/_index.en.md",

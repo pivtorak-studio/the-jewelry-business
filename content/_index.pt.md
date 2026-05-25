@@ -3,7 +3,7 @@ title: The Jewelry Business
 draft: false
 description: Pesquisa, herança, artesanato e cultura joalheira
 ---
-<div class="ad-slot-top"> <span>Advertisement / Research Archive Partner Area</span> </div>
+<div class="wrapper"> <div class="ad-slot-top"> <span>Advertisement / Research Archive Partner Area</span> </div> </div>
 
 # The Jewelry Business
 
