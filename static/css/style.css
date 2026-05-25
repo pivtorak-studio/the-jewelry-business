@@ -460,3 +460,8 @@ main {
   margin-top: 0 !important;
   padding: 0 !important;
 }
+
+/* Прибираємо фактичну висоту блоку, що створював мікрострибок */
+.ad-slot-top {
+  box-sizing: border-box;
+}
