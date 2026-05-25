@@ -98,8 +98,6 @@ hero_image: /images/jewelry-manufacturing.webp
 }
 </script>
 
-<div class="ad-slot-top"> <span>Advertisement / Research Archive Partner Area</span> </div>
-
 <div class="article-hero"> <div class="article-hero-text"> <h1>Ювелирное Производство</h1> <p class="intro-p"> <strong>Технологии. Ремесло. Наследие.</strong><br><br> Ювелирное Производство — исследовательское направление The Jewelry Business, посвящённое технической стороне ювелирного искусства: от традиционного ремесла и литья до современных производственных систем и цифровых технологий. </p> </div> <div class="article-hero-image"> <img src="/images/jewelry-manufacturing.webp" alt="Jewelry workshop and manufacturing process"> </div> </div>
 
 Этот раздел создан для:
