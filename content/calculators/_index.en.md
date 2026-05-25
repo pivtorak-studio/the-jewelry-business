@@ -6,6 +6,8 @@ language: "en"
 translationKey: "calculators"
 slug: "calculators"
 ---
+<div class="ad-slot-top"> <span>Advertisement / Research Archive Partner Area</span> </div>
+
 # Calculators & Converters
 
 Professional tools for jewelers, manufacturers, and researchers.

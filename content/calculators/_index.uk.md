@@ -6,6 +6,8 @@ language: "uk"
 translationKey: "calculators"
 slug: "calculators"
 ---
+<div class="ad-slot-top"> <span>Advertisement / Research Archive Partner Area</span> </div>
+
 # Калькулятори та Конвертери
 
 Професійні інструменти для ювелірів, виробників та дослідників.

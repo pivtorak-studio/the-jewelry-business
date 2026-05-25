@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/_index.uk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index.en"
+              "title": "_index.uk"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/_index.uk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для _index.en"
+              "title": "Зворотні посилання для _index.uk"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/_index.uk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з _index.en"
+              "title": "Вихідні посилання з _index.uk"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/_index.uk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст _index.en"
+              "title": "Вміст _index.uk"
             }
           }
         ]
@@ -185,42 +185,42 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
-    "content/_index.pt.md",
     "content/_index.ru.md",
-    "content/_index.uk.md",
+    "content/_index.pt.md",
     "content/_index.en.md",
     "content/services/jewelry-manufacturing/_index.uk.md",
-    "layouts/partials/hero.html",
-    "layouts/partials/New Text Document.txt",
     "content/services/jewelry-manufacturing/_index.ru.md",
     "content/services/jewelry-manufacturing/_index.pt.md",
     "content/services/jewelry-manufacturing/_index.en.md",
+    "content/services/intelligence-and-heritage/_index.uk.md",
+    "content/services/intelligence-and-heritage/_index.ru.md",
+    "content/services/intelligence-and-heritage/_index.pt.md",
+    "content/services/intelligence-and-heritage/_index.en.md",
+    "content/calculators/wire-gauge-converter.md",
+    "content/calculators/stone-size-calculator.md",
+    "content/calculators/ring-size-converter.md",
+    "content/calculators/metal-price-calculator.md",
+    "content/calculators/gold-weight-converter.md",
+    "content/calculators/_index.uk.md",
+    "content/calculators/_index.ru.md",
+    "content/calculators/_index.pt.md",
+    "content/calculators/_index.en.md",
+    "content/_index.uk.md",
+    "layouts/partials/hero.html",
+    "layouts/partials/New Text Document.txt",
     "layouts/services/single.html",
     "layouts/services/New Text Document.txt",
     "layouts/services/list.html",
     "layouts/services",
     "layouts/New folder",
-    "content/calculators/_index.uk.md",
-    "content/calculators/_index.pt.md",
-    "content/calculators/_index.en.md",
     "content/services/luxury-and-style/_index.uk.md",
     "content/services/_index.uk.md",
     "content/services/luxury-and-style/_index.ru.md",
     "content/services/_index.ru.md",
     "content/services/luxury-and-style/_index.pt.md",
-    "content/services/_index.pt.md",
-    "content/services/luxury-and-style/_index.en.md",
-    "content/services/_index.en.md",
-    "content/services/intelligence-and-heritage/_index.uk.md",
-    "content/services/intelligence-and-heritage/_index.ru.md",
-    "content/services/intelligence-and-heritage/_index.pt.md",
-    "content/services/intelligence-and-heritage/_index.en.md",
-    "content/services/jewelry-manufacturing.en.md",
     "content/services/luxury-and-style",
     "content/services/New folder",
     "content/services/jewelry-manufacturing",
-    "content/calculators/_index.ru.md",
-    "content/calculators/stone-size-calculator.md",
     "static/images/the-jewelry-business.webp",
     "themes/hugo-serif/images/tn.png",
     "static/images/jewelry-manufacturing.webp"

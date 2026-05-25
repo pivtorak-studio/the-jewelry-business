@@ -6,6 +6,8 @@ language: "pt"
 translationKey: "calculators"
 slug: "calculators"
 ---
+<div class="ad-slot-top"> <span>Advertisement / Research Archive Partner Area</span> </div>
+
 # Calculadoras e Conversores
 
 Ferramentas profissionais para joalheiros e fabricantes.
