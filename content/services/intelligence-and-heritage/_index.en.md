@@ -111,10 +111,7 @@ keywords:
 }
 </script>
 
-<div class="article-hero-image"> 
-<img src="/images/intelligence-and-heritage.webp" alt="Archival heritage registry card with vintage jewelry blueprints, elegant typography, provenance documentation, and museum-style editorial layout on a seamless white background."> 
-</div> 
-
+![Archival heritage registry card with vintage jewelry blueprints, elegant typography, provenance documentation, and museum-style editorial layout on a seamless white background.](/images/intelligence-and-heritage.webp)
 # Intelligence & Heritage
 ## Research. Memory. Provenance.
 

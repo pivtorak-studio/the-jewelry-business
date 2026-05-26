@@ -110,7 +110,13 @@ keywords:
 }
 </script>
 
-<div class="article-hero"> <div class="article-hero-text"> <h1>Património e Investigação</h1> <p class="intro-p"> <strong>Património e Investigação é uma direção de investigação e arquivo do The Jewelry Business dedicada à preservação, interpretação e documentação da cultura joalheira, do património da fabricação de joalharia e da memória histórica. </p> </div> <div class="article-hero-image"> <img src="/images/intelligence-and-heritage.webp" alt="Cartão de registo patrimonial com desenhos históricos de joalharia, tipografia elegante, documentação de proveniência e composição editorial museológica sobre fundo branco contínuo."> </div> </div>
+![Cartão de registo patrimonial com desenhos históricos de joalharia, tipografia elegante, documentação de proveniência e composição editorial museológica sobre fundo branco contínuo.](/images/intelligence-and-heritage.webp)
+
+# Património e Investigação
+
+## Investigação. Memória. Proveniência.
+
+**Património e Investigação** é uma direção de investigação e arquivo do The Jewelry Business dedicada à preservação, interpretação e documentação da cultura joalheira, do património da fabricação de joalharia e da memória histórica.
 
 Esta secção explora a joalharia não apenas como luxo, mas como:
 - evidência cultural;
@@ -161,3 +167,4 @@ O estudo da joalharia como parte de processos culturais, artísticos e civilizac
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+
