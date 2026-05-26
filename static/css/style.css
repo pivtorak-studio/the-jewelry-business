@@ -41,22 +41,22 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Гарантує розтягування по всій ширині wrapper */
+  width: 100%;
 }
 
 .logo img {
   height: 80px;
   width: auto;
   display: block;
-  flex-shrink: 0; /* Не дає логотипу стискатися чи посуватися */
+  flex-shrink: 0;
 }
 
 .header-right {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Залізобетонне вирівнювання всього блоку по правому краю */
-  flex-grow: 1; /* Змушує блок займати весь доступний простір праворуч */
-  gap: 30px; /* Оптимізовано з 40px для економії місця */
+  justify-content: flex-end;
+  flex-grow: 1;
+  gap: 30px;
 }
 
 /* =========================================
@@ -64,14 +64,14 @@ header {
 ========================================= */
 
 nav {
-  margin-left: auto; /* Елегантний інженерний прийом: штовхає меню максимально праворуч */
+  margin-left: auto;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 20px; /* Зменшено з 30px, щоб довге українське меню гарантовано поміщалося на моніторах */
+  gap: 20px;
   margin: 0;
   padding: 0;
 }
@@ -80,8 +80,8 @@ nav a {
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 600;
-  font-size: 16px; /* Делікатне зменшення з 18px додасть повітря й вирішить проблему великих слів */
-  white-space: nowrap; /* Забороняє словам переноситися на новий рядок всередині одного пункту */
+  font-size: 16px;
+  white-space: nowrap;
 }
 
 nav a:hover {
@@ -110,11 +110,11 @@ nav a:hover {
 }
 
 /* =========================================
-   MAIN CONTENT AREA
+   MAIN CONTENT AREA (Оптимізація та стабілізація)
 ========================================= */
 
 main {
-  padding-top: 80px;
+  padding-top: 40px; /* Спільний базовий старт для всіх типів сторінок */
   padding-bottom: 80px;
 }
 
@@ -122,7 +122,7 @@ main {
   width: 100%;
   margin: 0 auto;
   padding-top: 0;
-  margin-top: -40px; /* Підтягує головне зображення та контент ближче до банера */
+  margin-top: 0 !important; /* Повністю знищуємо стрибки вгору */
 }
 
 /* =========================================
@@ -143,16 +143,16 @@ p {
   margin-bottom: 1.5rem;
 }
 
-/* Повністю обнуляємо відступи для першого абзацу сторінки, де сидить наша обкладинка */
+/* Повне обнулення зовнішніх марджинів першого елемента контенту */
 .main-content-area .content > p:first-of-type,
-.main-content-area .content > p:first-child {
+.main-content-area .content > p:first-child,
+.main-content-area .content > h1:first-child {
   margin-top: 0 !important;
   padding-top: 0 !important;
-  margin-bottom: 0 !important;
 }
 
 /* =========================================
-   PREMIUM JOURNAL IMAGE SYSTEM
+   PREMIUM JOURNAL IMAGE SYSTEM (Фірмовий стиль "В клітинку")
 ========================================= */
 
 img {
@@ -161,7 +161,7 @@ img {
   display: block;
 }
 
-/* 1. Головне зображення статті (Строгий преміальний глянець — без рамок, без закруглень) */
+/* 1. Головне зображення статті (Уніфікована журнальна обкладинка з рамкою #ebebeb) */
 .main-content-area .content img:first-of-type,
 .main-content-area .content > p:first-child img {
   width: 100% !important;
@@ -172,41 +172,43 @@ img {
   margin-right: auto !important;
   margin-bottom: 50px !important;
   
-  /* Архітектурний тренд: жорсткий кут, повна відсутність меж */
-  border-radius: 0px !important; 
-  border: none !important;
+  /* Ідеальне інженерне рішення: тонка рамка для захисту меж фото */
+  border: 1px solid #ebebeb !important; 
+  border-radius: 4px !important;
   box-shadow: none !important;
 }
 
-/* 2. Стандартні зображення всередині тексту (Ілюстрації матеріалів) */
+/* 2. Стандартні зображення всередині тексту */
 .main-content-area .content img:not(:first-of-type),
 .main-content-area .content p ~ p img {
   width: 100% !important;
   max-width: 760px !important;
   height: auto !important;
   margin: 40px auto !important;
-  border-radius: 4px; /* Легке, ледве помітне пом'якшення для контенту */
+  border: 1px solid #ebebeb !important;
+  border-radius: 4px !important;
 }
 
-/* 3. Маленькі технічні зображення / Інструкції (Тут рамочка доречна як каталогний елемент) */
+/* 3. Маленькі технічні зображення / Інструкції */
 .image-small img,
 .small-image img,
 .step-image img,
 img.technical-small {
   max-width: 420px !important;
   margin: 30px auto !important;
-  border: 1px solid #ebebeb !important; /* Дуже світла тонка технічна межа */
+  border: 1px solid #ebebeb !important;
   border-radius: 4px !important;
 }
 
 /* =========================================
-   TOP AD / PARTNER AREA
+   TOP AD / PARTNER AREA (Майбутній блок автоматичних біржових цін)
 ========================================= */
 
 .ad-slot-top {
   width: 100%;
-  min-height: 90px;
-  margin-bottom: 30px; /* Зменшено з 60px для щільності журнальної верстки */
+  min-height: 60px; /* Зменшено висоту для більшої компактності інформера */
+  margin-top: 0;
+  margin-bottom: 40px; /* Фіксований відступ, що відштовхує контент донизу на однакову відстань */
   background: #fafafa;
   border: 1px dashed #e9e9e9;
   border-radius: 6px;
@@ -219,50 +221,6 @@ img.technical-small {
   color: #aaa;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-
-/* =========================================
-   HOMEPAGE HERO GRID (Залишається ТІЛЬКИ для головної сторінки)
-========================================= */
-
-.hero {
-  display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 60px;
-  align-items: center;
-  margin-top: 0;
-  margin-bottom: 120px;
-  padding: 0;
-}
-
-.hero-text {
-  margin: 0;
-  padding: 0;
-  max-width: 620px;
-}
-
-.hero-text h1 {
-  margin-top: 0;
-}
-
-.hero-description {
-  font-size: 22px;
-  line-height: 1.8;
-  color: #555;
-  margin-bottom: 0;
-}
-
-.hero-image {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.hero-image img {
-  width: 100%;
-  max-width: 760px;
-  height: auto;
-  margin: 0 !important;
-  border-radius: 6px;
 }
 
 /* =========================================
@@ -349,8 +307,7 @@ footer {
    FINAL VERTICAL RHYTHM FIX
 ========================================= */
 
-.content > *:first-child,
-.hero {
+.content > *:first-child {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
@@ -381,35 +338,17 @@ footer {
     justify-content: center;
   }
 
-  .hero {
-    grid-template-columns: 1fr;
-    gap: 40px;
-    margin-bottom: 60px;
-  }
-
   h1 {
     font-size: 42px;
   }
 
-  .hero-text {
-    max-width: 100%;
-  }
-
-  .hero-image {
-    justify-content: center;
-  }
-
-  .hero-image img {
-    max-width: 100%;
-  }
-
   .ad-slot-top {
     min-height: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
-  .main-content-area > .content > img:first-of-type,
-  .main-content-area > .content > p:first-of-type > img:first-of-type {
+  .main-content-area .content img:first-of-type,
+  .main-content-area .content > p:first-child img {
     margin-bottom: 30px !important;
   }
 }
