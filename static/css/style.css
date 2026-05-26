@@ -115,6 +115,76 @@ main {
   padding-top: 0;
 }
 
+/* =========================================
+   GLOBAL TYPOGRAPHY
+========================================= */
+
+h1 {
+  color: var(--primary-color);
+  font-size: 64px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+/* Повністю обнуляємо відступи для першого абзацу сторінки, де сидить наша обкладинка */
+.main-content-area .content > p:first-of-type,
+.main-content-area .content > p:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* =========================================
+   PREMIUM JOURNAL IMAGE SYSTEM
+========================================= */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 1. Головне зображення статті (Універсальний оптичний фокус) */
+/* Знаходить першу картинку на сторінці, незалежно від того, чи загорнув її Hugo в абзац <p> */
+.main-content-area .content img:first-of-type,
+.main-content-area .content > p:first-child img {
+  width: 100% !important;
+  max-width: 1320px !important; /* Рівно по внутрішній межі контенту з урахуванням падінгів */
+  height: auto !important;
+  margin-top: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 50px !important; /* Шляхетний відступ до Заголовка */
+  border-radius: 6px;
+}
+
+/* 2. Стандартні зображення всередині тексту (Ілюстрації матеріалів) */
+/* Діє на всі картинки, окрім найпершої обкладинки */
+.main-content-area .content img:not(:first-of-type),
+.main-content-area .content p ~ p img,
+.main-content-area .content p + p img {
+  width: 100% !important;
+  max-width: 760px !important;
+  height: auto !important;
+  margin: 40px auto !important;
+  border-radius: 6px;
+}
+
+/* 3. Маленькі технічні зображення (Інструкції, схеми, кроки) */
+.image-small img,
+.small-image img,
+.step-image img,
+img.technical-small {
+  max-width: 420px !important;
+  margin: 30px auto !important;
+}
 
 /* =========================================
    TOP AD / PARTNER AREA
