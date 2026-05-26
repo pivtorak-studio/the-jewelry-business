@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/services/luxury-and-style/_index.uk.md",
+                "file": "content/services/intelligence-and-heritage/_index.uk.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/services/luxury-and-style/_index.uk.md",
+                "file": "content/services/intelligence-and-heritage/_index.uk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/services/luxury-and-style/_index.uk.md",
+                "file": "content/services/intelligence-and-heritage/_index.uk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/services/luxury-and-style/_index.uk.md",
+                "file": "content/services/intelligence-and-heritage/_index.uk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,26 +185,28 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/services/intelligence-and-heritage/_index.ru.md",
+    "content/services/intelligence-and-heritage/_index.pt.md",
+    "content/services/intelligence-and-heritage/_index.en.md",
+    "content/services/intelligence-and-heritage/_index.uk.md",
+    "content/services/jewelry-manufacturing/_index.en.md",
+    "static/images/intelligence-and-heritage.webp",
+    "static/images/Unconfirmed 363183.crdownload",
+    "content/services/luxury-and-style/_index.en.md",
+    "content/_index.ru.md",
+    "content/services/luxury-and-style/_index.uk.md",
     "content/services/luxury-and-style/_index.ru.md",
     "content/services/luxury-and-style/_index.pt.md",
-    "content/services/luxury-and-style/_index.uk.md",
-    "content/services/luxury-and-style/_index.en.md",
-    "content/services/jewelry-manufacturing/_index.en.md",
     "static/images/luxury-and-style.webp",
     "static/images/Unconfirmed 576851.crdownload",
     "content/_index.pt.md",
     "content/_index.en.md",
-    "content/_index.ru.md",
     "content/_index.uk.md",
     "content/services/jewelry-manufacturing/_index.ru.md",
     "layouts/_default/single.html",
     "layouts/_default/New Text Document.txt",
     "content/services/jewelry-manufacturing/_index.pt.md",
     "content/services/jewelry-manufacturing/_index.uk.md",
-    "content/services/intelligence-and-heritage/_index.uk.md",
-    "content/services/intelligence-and-heritage/_index.ru.md",
-    "content/services/intelligence-and-heritage/_index.pt.md",
-    "content/services/intelligence-and-heritage/_index.en.md",
     "content/calculators/wire-gauge-converter.md",
     "content/calculators/stone-size-calculator.md",
     "content/calculators/ring-size-converter.md",
@@ -220,7 +222,6 @@
     "layouts/services/New Text Document.txt",
     "layouts/services/list.html",
     "layouts/services",
-    "layouts/New folder",
     "static/images/the-jewelry-business.webp",
     "themes/hugo-serif/images/tn.png",
     "static/images/jewelry-manufacturing.webp"
