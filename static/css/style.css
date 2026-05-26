@@ -152,39 +152,42 @@ img {
   display: block;
 }
 
-/* 1. Головне зображення статті (Універсальний оптичний фокус) */
-/* Знаходить першу картинку на сторінці, незалежно від того, чи загорнув її Hugo в абзац <p> */
+/* 1. Головне зображення статті (Строгий преміальний глянець — без рамок, без закруглень) */
 .main-content-area .content img:first-of-type,
 .main-content-area .content > p:first-child img {
   width: 100% !important;
-  max-width: 1320px !important; /* Рівно по внутрішній межі контенту з урахуванням падінгів */
+  max-width: 1320px !important;
   height: auto !important;
   margin-top: 0 !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-bottom: 50px !important; /* Шляхетний відступ до Заголовка */
-  border-radius: 6px;
+  margin-bottom: 50px !important;
+  
+  /* Архітектурний тренд: жорсткий кут, повна відсутність меж */
+  border-radius: 0px !important; 
+  border: none !important;
+  box-shadow: none !important;
 }
 
 /* 2. Стандартні зображення всередині тексту (Ілюстрації матеріалів) */
-/* Діє на всі картинки, окрім найпершої обкладинки */
 .main-content-area .content img:not(:first-of-type),
-.main-content-area .content p ~ p img,
-.main-content-area .content p + p img {
+.main-content-area .content p ~ p img {
   width: 100% !important;
   max-width: 760px !important;
   height: auto !important;
   margin: 40px auto !important;
-  border-radius: 6px;
+  border-radius: 4px; /* Легке, ледве помітне пом'якшення для контенту */
 }
 
-/* 3. Маленькі технічні зображення (Інструкції, схеми, кроки) */
+/* 3. Маленькі технічні зображення / Інструкції (Тут рамочка доречна як каталогний елемент) */
 .image-small img,
 .small-image img,
 .step-image img,
 img.technical-small {
   max-width: 420px !important;
   margin: 30px auto !important;
+  border: 1px solid #ebebeb !important; /* Дуже світла тонка технічна межа */
+  border-radius: 4px !important;
 }
 
 /* =========================================
