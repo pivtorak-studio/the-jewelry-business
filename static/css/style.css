@@ -41,29 +41,37 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%; /* Гарантує розтягування по всій ширині wrapper */
 }
 
 .logo img {
   height: 80px;
   width: auto;
   display: block;
+  flex-shrink: 0; /* Не дає логотипу стискатися чи посуватися */
 }
 
 .header-right {
   display: flex;
   align-items: center;
-  gap: 40px;
+  justify-content: flex-end; /* Залізобетонне вирівнювання всього блоку по правому краю */
+  flex-grow: 1; /* Змушує блок займати весь доступний простір праворуч */
+  gap: 30px; /* Оптимізовано з 40px для економії місця */
 }
 
 /* =========================================
    NAVIGATION
 ========================================= */
 
+nav {
+  margin-left: auto; /* Елегантний інженерний прийом: штовхає меню максимально праворуч */
+}
+
 nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px; /* Зменшено з 30px, щоб довге українське меню гарантовано поміщалося на моніторах */
   margin: 0;
   padding: 0;
 }
@@ -72,7 +80,8 @@ nav a {
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px; /* Делікатне зменшення з 18px додасть повітря й вирішить проблему великих слів */
+  white-space: nowrap; /* Забороняє словам переноситися на новий рядок всередині одного пункту */
 }
 
 nav a:hover {
