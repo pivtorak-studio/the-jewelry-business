@@ -82,7 +82,7 @@ hero_image: /images/jewelry-manufacturing.webp
 }
 </script>
 
-![Jewelry workshop main view](/images/jewelry-manufacturing.webp)
+![Close-up of a jeweler’s hands working with wax model and raw gold in a professional workshop.](/images/jewelry-manufacturing.webp)
 
 # Jewelry Manufacturing
 ## Technology. Craftsmanship. Heritage.

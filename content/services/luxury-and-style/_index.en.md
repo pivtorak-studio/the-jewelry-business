@@ -111,7 +111,12 @@ keywords:
 }
 </script>
 
-<div class="article-hero"> <div class="article-hero-text"> <h1>Luxury & Style</h1> <p class="intro-p"> <strong>Aesthetics. Symbolism. Cultural Memory.</strong><br><br> Luxury & Style is a research and editorial direction of The Jewelry Business dedicated to the visual language of jewelry art, luxury culture, and the philosophy of design. </p> </div> <div class="article-hero-image"> <img src="/images/luxury-and-style.webp" alt="Elegant platinum necklace and diamond ring floating on a seamless pure white background in a premium editorial composition for The Jewelry Business."> </div> </div>
+![Elegant platinum necklace and diamond ring floating on a seamless pure white background in a premium editorial composition for The Jewelry Business.](/images/luxury-and-style.webp)
+
+# Luxury & Style
+## Aesthetics. Symbolism. Cultural Memory.
+
+**Luxury & Style** is a research and editorial direction of The Jewelry Business dedicated to the visual language of jewelry art, luxury culture, and the philosophy of design.
 
 This section explores jewelry not only as an object of adornment, but as:
 - a cultural artifact;

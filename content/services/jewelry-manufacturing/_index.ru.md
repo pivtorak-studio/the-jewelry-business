@@ -98,7 +98,7 @@ hero_image: /images/jewelry-manufacturing.webp
 }
 </script>
 
-![Jewelry workshop main view](/images/jewelry-manufacturing.webp)
+![Крупный план рук ювелира, работающего с восковой моделью и золотом в профессиональной мастерской на белом фоне. Editorial aesthetic The Jewelry Business.](/images/jewelry-manufacturing.webp)
 
 # Ювелирное Производство
 ## Технологии. Ремесло. Наследие.

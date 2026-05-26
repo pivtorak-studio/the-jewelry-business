@@ -99,7 +99,7 @@ hero_image: /images/jewelry-manufacturing.webp
 }
 </script>
 
-![Jewelry workshop main view](/images/jewelry-manufacturing.webp)
+![Руки ювеліра працюють із восковою моделлю та золотом у професійній майстерні на білому фоні. Editorial aesthetic The Jewelry Business.](/images/jewelry-manufacturing.webp)
 
 # Ювелірне Виробництво
 ## Технології. Ремесло. Спадщина.

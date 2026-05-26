@@ -97,7 +97,12 @@ keywords:
 }
 </script>
 
-<div class="article-hero"> <div class="article-hero-text"> <h1>Розкіш та Стиль</h1> <p class="intro-p"> <strong>Естетика. Символізм. Культурна Памʼять.</strong><br><br> Розкіш та Стиль — дослідницький та редакційний напрям The Jewelry Business, присвячений візуальній мові ювелірного мистецтва, культурі розкоші та філософії дизайну. </p> </div> <div class="article-hero-image"> <img src="/images/luxury-and-style.webp" alt="Elegant platinum necklace and diamond ring floating on a seamless pure white background in a premium editorial composition for The Jewelry Business."> </div> </div>
+![Елегантне платинове кольє та каблучка з діамантом на чистому білому фоні у преміальній editorial-композиції для The Jewelry Business.](/images/luxury-and-style.webp)
+
+# Розкіш та Стиль
+## Естетика. Символізм. Культурна Памʼять.
+
+**Розкіш та Стиль** — дослідницький та редакційний напрям The Jewelry Business, присвячений візуальній мові ювелірного мистецтва, культурі розкоші та філософії дизайну.
 
 Цей розділ розглядає прикраси не лише як об’єкти оздоблення, а як:
 - культурні артефакти;

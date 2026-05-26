@@ -97,7 +97,12 @@ keywords:
 }
 </script>
 
-<div class="article-hero"> <div class="article-hero-text"> <h1>Luxo e Estilo</h1> <p class="intro-p"> <strong>Estética. Simbolismo. Memória Cultural.</strong><br><br> Luxo e Estilo é uma direção editorial e de investigação do The Jewelry Business dedicada à linguagem visual da arte joalheira, à cultura do luxo e à filosofia do design. </p> </div> <div class="article-hero-image"> <img src="/images/luxury-and-style.webp" alt="Elegant platinum necklace and diamond ring floating on a seamless pure white background in a premium editorial composition for The Jewelry Business."> </div> </div>
+![Colar elegante em platina e anel de diamante flutuando sobre fundo branco contínuo numa composição editorial premium para The Jewelry Business.](/images/luxury-and-style.webp)
+
+# Luxo e Estilo
+## Estética. Simbolismo. Memória Cultural.
+
+**Luxo e Estilo** é uma direção editorial e de investigação do The Jewelry Business dedicada à linguagem visual da arte joalheira, à cultura do luxo e à filosofia do design.
 
 Esta secção explora a joalharia não apenas como objeto decorativo, mas como:
 - artefacto cultural;

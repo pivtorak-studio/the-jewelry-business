@@ -97,7 +97,12 @@ keywords:
 }
 </script>
 
-<div class="article-hero"> <div class="article-hero-text"> <h1>Роскошь и Стиль</h1> <p class="intro-p"> <strong>Эстетика. Символизм. Культурная Память.</strong><br><br> Luxury & Style — исследовательское и редакционное направление The Jewelry Business, посвящённое визуальному языку ювелирного искусства, культуре роскоши и философии дизайна. </p> </div> <div class="article-hero-image"> <img src="/images/luxury-and-style.webp" alt="Elegant platinum necklace and diamond ring floating on a seamless pure white background in a premium editorial composition for The Jewelry Business."> </div> </div>
+![Элегантное платиновое колье и кольцо с бриллиантом на чистом белом фоне в премиальной editorial-композиции для The Jewelry Business.](/images/luxury-and-style.webp)
+
+# Роскошь и Стиль
+## Эстетика. Символизм. Культурная Память.
+
+**Роскошь и Стиль** — исследовательское и редакционное направление The Jewelry Business, посвящённое визуальному языку ювелирного искусства, культуре роскоши и философии дизайна.
 
 Этот раздел рассматривает ювелирные украшения не только как предмет украшения, но как:
 - культурный артефакт;

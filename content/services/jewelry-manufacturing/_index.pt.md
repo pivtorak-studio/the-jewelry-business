@@ -98,7 +98,7 @@ hero_image: /images/jewelry-manufacturing.webp
 }
 </script>
 
-![Jewelry workshop main view](/images/jewelry-manufacturing.webp)
+![Tecnologia, artesanato e património da fabricação de joalharia. Um arquivo de investigação dedicado a ferramentas, materiais, processos de produção e cultura das oficinas.](/images/jewelry-manufacturing.webp)
 
 # Fabricação de Joalharia
 ## Tecnologia. Artesanato. Património.
