@@ -82,7 +82,7 @@ hero_image: /images/jewelry-manufacturing.webp
 }
 </script>
 
-![Jewelry workshop main view](/images/jewelry-manufacturing.webp)
+![Jewelry workshop main view](/images/jewelry-manufacturing.webp){.main-article-cover}
 
 # Jewelry Manufacturing
 ## Technology. Craftsmanship. Heritage.

@@ -133,11 +133,13 @@ p {
   margin-bottom: 1.5rem;
 }
 
-/* Прибираємо відступ від першого абзацу, якщо в ньому лежить головне зображення */
-.main-content-area > .content > p:first-of-type {
+/* Обнуляємо марджини для будь-якого абзацу, який намагається обгорнути нашу обкладинку */
+p:has(.main-article-cover),
+p:has(img[src*="manufacturing"]), 
+.content > p:first-of-type {
   margin-top: 0 !important;
-  margin-bottom: 0 !important;
   padding-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 /* =========================================
@@ -150,24 +152,24 @@ img {
   display: block;
 }
 
-/* 1. Головне зображення статті (Вгорі сторінки, на всю ширину wrapper — 1400px) */
-.main-content-area > .content img:first-of-type,
-.main-content-area > .content > p:first-child > img {
+/* 1. Головне зображення статті (Залізобетонний преміальний фокус) */
+.main-article-cover,
+img[src$="jewelry-manufacturing.webp"],
+.main-content-area img:first-of-type {
   width: 100% !important;
-  max-width: 1400px !important;
+  max-width: 1400px !important; /* Розгортання на всю ширину wrapper */
   height: auto !important;
   margin-top: 0 !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-bottom: 50px !important; /* Відступ під голівним фото до Заголовка */
+  margin-bottom: 50px !important; /* Відступ до заголовка */
   border-radius: 6px;
 }
 
 /* 2. Стандартні зображення всередині тексту (Ілюстрації матеріалів) */
-.content p img,
-main img:not(:first-of-type) {
+.content img:not(.main-article-cover) {
   width: 100% !important;
-  max-width: 760px !important; /* Обмеження ширини для внутрішніх фото */
+  max-width: 760px !important;
   height: auto !important;
   margin: 40px auto !important;
   border-radius: 6px;
