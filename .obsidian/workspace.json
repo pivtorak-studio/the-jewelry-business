@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/services/intelligence-and-heritage/_index.en.md",
+                "file": "content/services/intelligence-and-heritage/_index.uk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index.en"
+              "title": "_index.uk"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/services/intelligence-and-heritage/_index.en.md",
+                "file": "content/services/intelligence-and-heritage/_index.uk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для _index.en"
+              "title": "Зворотні посилання для _index.uk"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/services/intelligence-and-heritage/_index.en.md",
+                "file": "content/services/intelligence-and-heritage/_index.uk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з _index.en"
+              "title": "Вихідні посилання з _index.uk"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/services/intelligence-and-heritage/_index.en.md",
+                "file": "content/services/intelligence-and-heritage/_index.uk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст _index.en"
+              "title": "Вміст _index.uk"
             }
           }
         ]
@@ -185,10 +185,10 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/services/intelligence-and-heritage/_index.en.md",
     "content/services/intelligence-and-heritage/_index.uk.md",
     "content/services/intelligence-and-heritage/_index.ru.md",
     "content/services/intelligence-and-heritage/_index.pt.md",
-    "content/services/intelligence-and-heritage/_index.en.md",
     "images/luxury-and-style.webp.md",
     "images",
     "content/services/luxury-and-style/_index.en.md",
