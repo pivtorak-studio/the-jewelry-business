@@ -82,7 +82,12 @@ hero_image: /images/jewelry-manufacturing.webp
 }
 </script>
 
-<div class="article-hero"> <div class="article-hero-text"> <h1>Jewelry Manufacturing</h1> <p class="intro-p"> <strong>Technology. Craftsmanship. Heritage.</strong><br><br> Jewelry Manufacturing is a research division of The Jewelry Business dedicated to the technical side of jewelry art — from traditional craftsmanship and casting to modern production systems and digital technologies. </p> </div> <div class="article-hero-image"> <img src="/images/jewelry-manufacturing.webp" alt="Jewelry workshop and manufacturing process"> </div> </div>
+![Jewelry workshop main view](/images/jewelry-manufacturing.webp)
+
+# Jewelry Manufacturing
+## Technology. Craftsmanship. Heritage.
+
+**Jewelry Manufacturing** is a research division of The Jewelry Business dedicated to the technical side of jewelry art — from traditional craftsmanship and casting to modern production systems and digital technologies.
 
 This section is created for:
 - jewelers;
