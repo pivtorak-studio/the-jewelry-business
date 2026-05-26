@@ -14,16 +14,7 @@ body {
   padding: 0;
   background: var(--bg-color);
   color: var(--text-color);
-
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
-
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.7;
 }
 
@@ -33,12 +24,9 @@ body {
 
 .wrapper {
   max-width: 1400px;
-
   margin: 0 auto;
-
   padding-left: 40px;
   padding-right: 40px;
-
   box-sizing: border-box;
 }
 
@@ -49,9 +37,7 @@ body {
 header {
   padding-top: 30px;
   padding-bottom: 30px;
-
   border-bottom: 1px solid var(--border-color);
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,14 +46,12 @@ header {
 .logo img {
   height: 80px;
   width: auto;
-
   display: block;
 }
 
 .header-right {
   display: flex;
   align-items: center;
-
   gap: 40px;
 }
 
@@ -77,21 +61,16 @@ header {
 
 nav ul {
   list-style: none;
-
   display: flex;
   align-items: center;
-
   gap: 30px;
-
   margin: 0;
   padding: 0;
 }
 
 nav a {
   text-decoration: none;
-
   color: var(--primary-color);
-
   font-weight: 600;
   font-size: 18px;
 }
@@ -106,19 +85,14 @@ nav a:hover {
 
 .language-switcher {
   display: flex;
-
   gap: 12px;
-
   font-size: 14px;
-
   text-transform: uppercase;
 }
 
 .language-switcher a {
   text-decoration: none;
-
   color: #777;
-
   font-weight: 600;
 }
 
@@ -137,9 +111,7 @@ main {
 
 .main-content-area {
   width: 100%;
-
   margin: 0 auto;
-
   padding-top: 0;
 }
 
@@ -149,54 +121,56 @@ main {
 
 h1 {
   color: var(--primary-color);
-
   font-size: 64px;
   line-height: 1.1;
-
   letter-spacing: -1px;
-
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 p {
   margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 /* =========================================
-   GLOBAL IMAGE SYSTEM
+   PREMIUM JOURNAL IMAGE SYSTEM
 ========================================= */
 
 img {
   max-width: 100%;
   height: auto;
-
   display: block;
 }
 
-/* Main content images */
-
-main img {
+/* 1. Головне зображення статті (Вгорі сторінки, розгортається на 100% ширини до 1400px) */
+.main-content-area > .content > img:first-of-type,
+.main-content-area > .content > p:first-of-type > img:first-of-type {
   width: 100%;
-  max-width: 760px;
-
+  max-width: 1400px;
   height: auto;
-
+  margin-top: 0 !important;
+  margin-bottom: 50px !important;
   border-radius: 6px;
 }
 
-/* Small technical images */
-
-.image-small img,
-.small-image img,
-.step-image img {
-  max-width: 420px;
+/* 2. Стандартні зображення всередині тексту (Ілюстрації матеріалів) */
+main img,
+.content img {
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  margin: 40px auto;
+  border-radius: 6px;
 }
 
-/* Medium images */
-
-.image-medium img {
-  max-width: 760px;
+/* 3. Маленькі технічні зображення (Інструкції, схеми, кроки) */
+.image-small img,
+.small-image img,
+.step-image img,
+img.technical-small {
+  max-width: 420px !important;
+  margin: 30px auto !important;
 }
 
 /* =========================================
@@ -205,96 +179,63 @@ main img {
 
 .ad-slot-top {
   width: 100%;
-
   min-height: 90px;
-
   margin-bottom: 60px;
-
   background: #fafafa;
-
   border: 1px dashed #e9e9e9;
   border-radius: 6px;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   overflow: hidden;
-
   box-sizing: border-box;
-
   font-size: 12px;
   color: #aaa;
-
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 /* =========================================
-   UNIFIED HERO SYSTEM
+   HOMEPAGE HERO GRID (Залишається ТІЛЬКИ для головної сторінки)
 ========================================= */
 
-.hero,
-.article-hero {
+.hero {
   display: grid;
-
   grid-template-columns: 1.1fr 1fr;
-
   gap: 60px;
-
   align-items: center;
-
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 120px;
   padding: 0;
 }
 
-/* =========================================
-   HERO TEXT
-========================================= */
-
-.hero-text,
-.article-hero-text {
+.hero-text {
   margin: 0;
   padding: 0;
-
   max-width: 620px;
 }
 
-.hero-text h1,
-.article-hero-text h1 {
+.hero-text h1 {
   margin-top: 0;
 }
 
-.hero-description,
-.article-hero-text .intro-p {
+.hero-description {
   font-size: 22px;
-
   line-height: 1.8;
-
   color: #555;
-
   margin-bottom: 0;
 }
 
-/* =========================================
-   HERO IMAGE
-========================================= */
-
-.hero-image,
-.article-hero-image {
+.hero-image {
   display: flex;
   justify-content: flex-end;
 }
 
-.hero-image img,
-.article-hero-image img {
+.hero-image img {
   width: 100%;
   max-width: 760px;
-
   height: auto;
-
   margin: 0 !important;
-
   border-radius: 6px;
 }
 
@@ -304,27 +245,19 @@ main img {
 
 .dev-notice {
   margin-top: 40px;
-
   padding: 22px 26px;
-
   background: #fff8db;
-
   border: 1px solid #e7d48c;
   border-left: 6px solid #c7a93b;
-
   border-radius: 10px;
-
   font-size: 15px;
   line-height: 1.7;
-
   color: #5b4b18;
 }
 
 .dev-notice strong {
   display: block;
-
   margin-bottom: 10px;
-
   font-size: 17px;
 }
 
@@ -353,35 +286,27 @@ main img {
 
 footer {
   border-top: 1px solid var(--border-color);
-
   padding-top: 50px;
   padding-bottom: 50px;
-
   margin-top: 80px;
 }
 
 .footer-grid {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
-
   gap: 40px;
 }
 
 .footer-nav {
   display: flex;
-
   gap: 24px;
-
   flex-wrap: wrap;
 }
 
 .footer-nav a {
   text-decoration: none;
-
   color: #666;
-
   font-size: 15px;
 }
 
@@ -391,7 +316,6 @@ footer {
 
 .footer-copy {
   color: #999;
-
   font-size: 14px;
 }
 
@@ -400,10 +324,7 @@ footer {
 ========================================= */
 
 .content > *:first-child,
-.hero,
-.article-hero,
-.hero-text,
-.article-hero-text {
+.hero {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
@@ -413,7 +334,6 @@ footer {
 ========================================= */
 
 @media (max-width: 1000px) {
-
   .wrapper {
     padding-left: 20px;
     padding-right: 20px;
@@ -421,53 +341,49 @@ footer {
 
   header {
     flex-direction: column;
-
     gap: 20px;
   }
 
   .header-right {
     flex-direction: column;
-
     gap: 20px;
   }
 
   nav ul {
     gap: 16px;
-
     flex-wrap: wrap;
-
     justify-content: center;
   }
 
-  .hero,
-  .article-hero {
+  .hero {
     grid-template-columns: 1fr;
-
     gap: 40px;
+    margin-bottom: 60px;
   }
 
   h1 {
     font-size: 42px;
   }
 
-  .hero-text,
-  .article-hero-text {
+  .hero-text {
     max-width: 100%;
   }
 
-  .hero-image,
-  .article-hero-image {
+  .hero-image {
     justify-content: center;
   }
 
-  .hero-image img,
-  .article-hero-image img {
+  .hero-image img {
     max-width: 100%;
   }
 
   .ad-slot-top {
     min-height: 60px;
-
     margin-bottom: 40px;
+  }
+
+  .main-content-area > .content > img:first-of-type,
+  .main-content-area > .content > p:first-of-type > img:first-of-type {
+    margin-bottom: 30px !important;
   }
 }
