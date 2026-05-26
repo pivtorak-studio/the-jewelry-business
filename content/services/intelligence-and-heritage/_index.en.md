@@ -111,8 +111,14 @@ keywords:
 }
 </script>
 
+<div class="article-hero-image"> 
+<img src="/images/intelligence-and-heritage.webp" alt="Archival heritage registry card with vintage jewelry blueprints, elegant typography, provenance documentation, and museum-style editorial layout on a seamless white background."> 
+</div> 
 
-<div class="article-hero"> <div class="article-hero-text"> <h1>Intelligence & Heritage</h1> <p class="intro-p"> <strong>Research. Memory. Provenance.</strong><br><br> Intelligence & Heritage is a research and archival direction of The Jewelry Business dedicated to the preservation, interpretation, and documentation of jewelry culture, manufacturing heritage, and historical memory. </p> </div> <div class="article-hero-image"> <img src="/images/intelligence-and-heritage.webp" alt="Archival heritage registry card with vintage jewelry blueprints, elegant typography, provenance documentation, and museum-style editorial layout on a seamless white background."> </div> </div>
+# Intelligence & Heritage
+## Research. Memory. Provenance.
+
+**Intelligence & Heritage** is a research and archival direction of The Jewelry Business dedicated to the preservation, interpretation, and documentation of jewelry culture, manufacturing heritage, and historical memory.
 
 This section explores jewelry not only as luxury, but as:
 - cultural evidence;
@@ -163,3 +169,5 @@ The study of jewelry as part of broader cultural, artistic, and civilizational p
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+
+<div class="article-hero"> <div class="article-hero-text"> <h1>Intelligence & Heritage</h1> <p class="intro-p"> <strong>Research. Memory. Provenance.</strong><br><br> Intelligence & Heritage is a research and archival direction of The Jewelry Business dedicated to the preservation, interpretation, and documentation of jewelry culture, manufacturing heritage, and historical memory. </p> </div> <div class="article-hero-image"> <img src="/images/intelligence-and-heritage.webp" alt="Archival heritage registry card with vintage jewelry blueprints, elegant typography, provenance documentation, and museum-style editorial layout on a seamless white background."> </div> </div>
