@@ -1,0 +1,14 @@
+[
+  {{- range $index, $page := .Site.AllPages -}}
+    {{- if and (not $page.Draft) (eq $page.Kind "page") -}}
+      {{- if $index }},{{ end }}
+      {
+        "title": {{ $page.Title | jsonify }},
+        "permalink": {{ $page.Permalink | jsonify }},
+        "description": {{ $page.Description | jsonify }},
+        "content": {{ $page.Plain | strings.Truncate 300 | jsonify }},
+        "lang": {{ $page.Language.Lang | jsonify }}
+      }
+    {{- end -}}
+  {{- end -}}
+]
