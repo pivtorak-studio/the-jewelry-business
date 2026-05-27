@@ -165,3 +165,7 @@ defaultContentLanguageInSubdir = false
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
