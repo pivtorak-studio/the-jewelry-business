@@ -168,4 +168,15 @@ defaultContentLanguageInSubdir = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML"]
+
+[languages.en.outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[languages.uk.outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[languages.pt.outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[languages.ru.outputs]
+  home = ["HTML", "RSS", "JSON"]
