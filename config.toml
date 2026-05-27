@@ -87,7 +87,7 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[languages.uk.menu.main]]
-  name = "💎 Розкіш та Стиль"
+  name = "💎 Розкіш і Стиль"
   url = "/uk/services/luxury-and-style/"
   weight = 3
 

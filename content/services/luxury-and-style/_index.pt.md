@@ -121,7 +121,7 @@ Documentamos:
 
 Uma atenção especial é dedicada à joalharia em platina e à influência histórica de organizações internacionais, exposições e movimentos de design que moldaram a indústria joalheira contemporânea.
 
-Luxury & Style combina:
+**Luxo e Estilo** combina:
 - análise editorial;
 - arquivos visuais;
 - estética museológica;

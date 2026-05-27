@@ -135,7 +135,7 @@ We document:
 
 Special attention is dedicated to platinum jewelry and the historical influence of international organizations, exhibitions, and design movements that shaped the modern jewelry industry.
 
-Luxury & Style combines:
+**Luxury & Style** combines:
 - editorial analysis;
 - visual archives;
 - museum aesthetics;

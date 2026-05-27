@@ -124,7 +124,7 @@ Documentamos:
 - ferramentas profissionais;
 - cultura das oficinas em diferentes épocas.
 
-O The Jewelry Business dedica especial atenção ao património da fabricação de joalharia do início dos anos 2000 — um período em que muitas oficinas surgiam em pequenos espaços domésticos e ferramentas simples faziam parte da cultura profissional.
+The Jewelry Business dedica especial atenção ao património da fabricação de joalharia do início dos anos 2000 — um período em que muitas oficinas surgiam em pequenos espaços domésticos e ferramentas simples faziam parte da cultura profissional.
 
 Isto não é apenas um arquivo técnico.
 
