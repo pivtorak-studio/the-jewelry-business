@@ -2,11 +2,15 @@
 
   <div class="logo">
     <a href="{{ .Site.Home.RelPermalink }}">
+
       {{ if .Site.Params.logo_desktop }}
-        <img src="{{ .Site.Params.logo_desktop | relURL }}" alt="{{ .Site.Title }}">
+        <img
+          src="{{ .Site.Params.logo_desktop | relURL }}"
+          alt="{{ .Site.Title }}">
       {{ else }}
         {{ .Site.Title }}
       {{ end }}
+
     </a>
   </div>
 
@@ -14,57 +18,41 @@
 
     <nav>
       <ul>
+
         {{ range .Site.Menus.main }}
+
         <li>
           <a href="{{ .URL | relLangURL }}">
             {{ .Name }}
           </a>
         </li>
+
         {{ end }}
+
       </ul>
     </nav>
 
-    {{/*
-    {{ partial "search-button.html" . }}  
-    */}}
+    <div class="language-switcher">
 
-    <div class="language-switcher" id="js-language-switcher">
-      {{ range .Site.Languages }}
-        <a href="/{{ if ne .Lang $.Site.DefaultContentLanguage }}{{ .Lang }}/{{ end }}" data-lang="{{ .Lang }}" class="{{ if eq .Lang $.Site.Language.Lang }}active{{ end }}">
-          {{ .Lang }}
-        </a>
+      {{ if .IsTranslated }}
+
+        {{ range .AllTranslations }}
+
+          <a
+            href="{{ .RelPermalink }}"
+            lang="{{ .Language.Lang }}"
+            hreflang="{{ .Language.Lang }}"
+            class="{{ if eq .Language.Lang $.Language.Lang }}active{{ end }}"
+          >
+            {{ upper .Language.Lang }}
+          </a>
+
+        {{ end }}
+
       {{ end }}
+
     </div>
 
   </div>
 
 </header>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // Масив доступних перекладів для цієї сторінки, згенерований Hugo
-    const translations = {
-      {{ range .AllTranslations }}
-        "{{ .Language.Lang }}": "{{ .Permalink }}",
-      {{ end }}
-    };
-
-    // Якщо ми на сторінці, яка має переклади, підміняємо лінки в меню
-    if (Object.keys(translations).length > 1) {
-      const switcherLinks = document.querySelectorAll("#js-language-switcher a");
-      switcherLinks.forEach(link => {
-        const lang = link.getAttribute("data-lang");
-        if (translations[lang]) {
-          link.href = translations[lang];
-        }
-      });
-    }
-  });
-</script>
-
-<pre>
-Kind: {{ .Kind }}
-Type: {{ printf "%T" . }}
-IsPage: {{ .IsPage }}
-Translations: {{ len .AllTranslations }}
-</pre>
