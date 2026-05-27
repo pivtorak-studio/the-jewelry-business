@@ -1,58 +1,115 @@
 <header>
-
   <div class="logo">
     <a href="{{ .Site.Home.RelPermalink }}">
-
       {{ if .Site.Params.logo_desktop }}
-        <img
-          src="{{ .Site.Params.logo_desktop | relURL }}"
-          alt="{{ .Site.Title }}">
+        <img src="{{ .Site.Params.logo_desktop | relURL }}" alt="{{ .Site.Title }}">
       {{ else }}
         {{ .Site.Title }}
       {{ end }}
-
     </a>
   </div>
 
   <div class="header-right">
-
     <nav>
       <ul>
-
         {{ range .Site.Menus.main }}
-
         <li>
           <a href="{{ .URL | relLangURL }}">
             {{ .Name }}
           </a>
         </li>
-
         {{ end }}
-
       </ul>
     </nav>
 
+    <button id="search-toggle" aria-label="Search" style="background:none; border:none; cursor:pointer; font-size:18px;">🔍</button>
+
     <div class="language-switcher">
-
       {{ if .IsTranslated }}
-
         {{ range .AllTranslations }}
-
-          <a
-            href="{{ .RelPermalink }}"
-            lang="{{ .Language.Lang }}"
-            hreflang="{{ .Language.Lang }}"
-            class="{{ if eq .Language.Lang $.Language.Lang }}active{{ end }}"
-          >
+          <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}" class="{{ if eq .Language.Lang $.Language.Lang }}active{{ end }}">
             {{ upper .Language.Lang }}
           </a>
-
         {{ end }}
-
       {{ end }}
-
     </div>
-
   </div>
-
 </header>
+
+<div id="search-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.98); z-index: 9999; padding: 40px; box-sizing: border-box;">
+  <div style="max-width: 760px; margin: 60px auto; position: relative;">
+    <button id="search-close" style="position: absolute; right: 0; top: -40px; background: none; border: none; font-size: 24px; cursor: pointer;">✕</button>
+    <input type="text" id="search-input" placeholder="Start typing to search..." style="width: 100%; font-size: 28px; padding: 12px 0; border: none; border-bottom: 2px solid #1f1f1f; outline: none; font-family: inherit;">
+    <div id="search-results" style="margin-top: 40px; max-height: 60vh; overflow-y: auto;"></div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const searchToggle = document.getElementById("search-toggle");
+    const searchOverlay = document.getElementById("search-overlay");
+    const searchClose = document.getElementById("search-close");
+    const searchInput = document.getElementById("search-input");
+    const searchResults = document.getElementById("search-results");
+    
+    let searchIndex = null;
+    const currentLang = "{{ .Language.Lang }}";
+
+    // 1. Відкриття / Закриття вікна
+    searchToggle.addEventListener("click", () => {
+      searchOverlay.style.display = "block";
+      searchInput.focus();
+      if (!searchIndex) {
+        // Завантажуємо індекс саме для поточної мови (когнітивна ізоляція)
+        const indexPath = currentLang === "en" ? "/index.json" : "/" + currentLang + "/index.json";
+        fetch(indexPath)
+          .then(response => response.json())
+          .then(data => { searchIndex = data; })
+          .catch(err => console.error("Could not load search index:", err));
+      }
+    });
+
+    searchClose.addEventListener("click", () => { searchOverlay.style.display = "none"; });
+    
+    // Закриття по Esc
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") searchOverlay.style.display = "none";
+    });
+
+    // 2. Механіка пошуку "на льоту"
+    searchInput.addEventListener("input", function() {
+      const query = this.value.toLowerCase().trim();
+      searchResults.innerHTML = "";
+      
+      if (query.length < 2 || !searchIndex) return;
+
+      // Фільтруємо індекс за поточною мовою та за входожженням тексту
+      const matches = searchIndex.filter(item => {
+        return item.lang === currentLang && (
+          item.title.toLowerCase().includes(query) || 
+          (item.description && item.description.toLowerCase().includes(query)) ||
+          item.content.toLowerCase().includes(query)
+        );
+      });
+
+      if (matches.length === 0) {
+        searchResults.innerHTML = `<p style="color: #999;">No results found for "${this.value}"</p>`;
+        return;
+      }
+
+      // Виводимо результати в журнальному преміум-стилі
+      matches.forEach(item => {
+        const div = document.createElement("div");
+        div.style.marginBottom = "30px";
+        div.innerHTML = `
+          <h3 style="margin: 0 0 5px 0; font-size: 22px;">
+            <a href="${item.permalink}" style="color: #1f1f1f; text-decoration: none; font-weight: 600;">${item.title}</a>
+          </h3>
+          ${item.description ? `<p style="margin: 0 0 5px 0; color: #555; font-size: 15px;">${item.description}</p>` : ""}
+          <small style="color: #aaa; text-transform: uppercase; font-size: 11px; letter-spacing: 1px;">Open Article →</small>
+        `;
+        searchResults.appendChild(div);
+      });
+    });
+  });
+</script>
