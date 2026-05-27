@@ -61,3 +61,10 @@
     }
   });
 </script>
+
+<pre>
+Kind: {{ .Kind }}
+Type: {{ printf "%T" . }}
+IsPage: {{ .IsPage }}
+Translations: {{ len .AllTranslations }}
+</pre>
