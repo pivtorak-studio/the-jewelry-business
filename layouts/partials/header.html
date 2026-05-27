@@ -28,30 +28,36 @@
     {{ partial "search-button.html" . }}  
     */}}
 
-    <div class="language-switcher">
-      {{ if .IsPage }}
-        {{ if .IsTranslated }}
-          {{ range .AllTranslations }}
-            <a href="{{ .Permalink }}" class="{{ if eq .Language.Lang $.Site.Language.Lang }}active{{ end }}">
-              {{ .Language.Lang }}
-            </a>
-          {{ end }}
-        {{ else }}
-          {{ range .Site.Languages }}
-            <a href="{{ if eq .Lang $.Site.DefaultContentLanguage }}/{{ else }}/{{ .Lang }}/{{ end }}" class="{{ if eq .Lang $.Site.Language.Lang }}active{{ end }}">
-              {{ .Lang }}
-            </a>
-          {{ end }}
-        {{ end }}
-      {{ else }}
-        {{ range .Site.Languages }}
-          <a href="{{ if eq .Lang $.Site.DefaultContentLanguage }}/{{ else }}/{{ .Lang }}/{{ end }}" class="{{ if eq .Lang $.Site.Language.Lang }}active{{ end }}">
-            {{ .Lang }}
-          </a>
-        {{ end }}
+    <div class="language-switcher" id="js-language-switcher">
+      {{ range .Site.Languages }}
+        <a href="/{{ if ne .Lang $.Site.DefaultContentLanguage }}{{ .Lang }}/{{ end }}" data-lang="{{ .Lang }}" class="{{ if eq .Lang $.Site.Language.Lang }}active{{ end }}">
+          {{ .Lang }}
+        </a>
       {{ end }}
     </div>
 
   </div>
 
 </header>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Масив доступних перекладів для цієї сторінки, згенерований Hugo
+    const translations = {
+      {{ range .AllTranslations }}
+        "{{ .Language.Lang }}": "{{ .Permalink }}",
+      {{ end }}
+    };
+
+    // Якщо ми на сторінці, яка має переклади, підміняємо лінки в меню
+    if (Object.keys(translations).length > 1) {
+      const switcherLinks = document.querySelectorAll("#js-language-switcher a");
+      switcherLinks.forEach(link => {
+        const lang = link.getAttribute("data-lang");
+        if (translations[lang]) {
+          link.href = translations[lang];
+        }
+      });
+    }
+  });
+</script>
