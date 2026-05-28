@@ -118,6 +118,9 @@ keywords:
 }
 </script>
 
+![Editorial-композиция с платиновыми украшениями, архивными чертежами, инструментами ювелира и heritage-документацией на белом фоне, представляющая The Jewelry Business.](/images/the-jewelry-business.webp)
+
+
 <div style="border: 1px solid #f2c94c; background-color: #fff8e1; padding: 16px; border-radius: 10px; margin: 20px 0;">
 
   <p style="margin: 0 0 10px 0; font-weight: 600;">
@@ -132,8 +135,6 @@ keywords:
   </p>
 
 </div>
-
-![Editorial-композиция с платиновыми украшениями, архивными чертежами, инструментами ювелира и heritage-документацией на белом фоне, представляющая The Jewelry Business.](/images/the-jewelry-business.webp)
 
 # Ювелирный Бизнес
 
