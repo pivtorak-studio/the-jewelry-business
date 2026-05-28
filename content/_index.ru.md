@@ -154,7 +154,6 @@ Analytical Center & Heritage Archive of Jewelry Art
     Цей простір створюється мовою свободи та миру. 
     Російська версія відкриється тоді, коли настане мир.      
     Дякуємо за розуміння.   
-    {{ partial "ru-unavailable.html" . }} \layouts\_default\baseof.html
 
   </p>
 
