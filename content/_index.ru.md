@@ -144,7 +144,7 @@ keywords:
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
 
-<div style="border: 1px solid #f2c94c; background-color: #fff8e1; padding: 16px; border-radius: 10px; margin: 20px 0;">
+<div style="border: 1px solid #b4b4b4; background-color: #ebebeb; padding: 16px; border-radius: 10px; margin: 20px 0;">
 
   <p style="margin: 0 0 10px 0; font-weight: 600;">
     ⊗ RU — unavailable until peace
