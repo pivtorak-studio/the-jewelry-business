@@ -1,14 +1,19 @@
 [
-  {{- range $index, $page := .Site.AllPages -}}
-    {{- if and (not $page.Draft) (eq $page.Kind "page") -}}
-      {{- if $index }},{{ end }}
-      {
-        "title": {{ $page.Title | jsonify }},
-        "permalink": {{ $page.Permalink | jsonify }},
-        "description": {{ $page.Description | jsonify }},
-        "content": {{ $page.Plain | strings.Truncate 300 | jsonify }},
-        "lang": {{ $page.Language.Lang | jsonify }}
-      }
-    {{- end -}}
+{{- $first := true -}}
+{{- range .Site.AllPages -}}
+  {{- if and (not .Draft) (eq .Kind "page") -}}
+
+    {{- if not $first }},{{ end -}}
+    {{- $first = false -}}
+
+    {
+      "title": {{ .Title | jsonify }},
+      "permalink": {{ .Permalink | jsonify }},
+      "description": {{ .Description | jsonify }},
+      "content": {{ .Plain | strings.Truncate 300 | jsonify }},
+      "lang": {{ .Language.Lang | jsonify }}
+    }
+
   {{- end -}}
+{{- end -}}
 ]
