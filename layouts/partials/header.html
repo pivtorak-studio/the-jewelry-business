@@ -54,6 +54,34 @@
     
     let searchIndex = null;
     const currentLang = "{{ .Language.Lang }}";
+const searchTexts = {
+  en: {
+    placeholder: "Start typing to search...",
+    noResults: "No results found",
+    open: "Open article →"
+  },
+
+  uk: {
+    placeholder: "Почніть вводити текст для пошуку...",
+    noResults: "Нічого не знайдено",
+    open: "Відкрити статтю →"
+  },
+
+  pt: {
+    placeholder: "Comece a escrever para pesquisar...",
+    noResults: "Nenhum resultado encontrado",
+    open: "Abrir artigo →"
+  },
+
+  ru: {
+    placeholder: "Начните вводить текст для поиска...",
+    noResults: "Ничего не найдено",
+    open: "Открыть статью →"
+  }
+};
+
+searchInput.placeholder =
+  searchTexts[currentLang].placeholder;
 
     // 1. Відкриття / Закриття вікна
     searchToggle.addEventListener("click", () => {
