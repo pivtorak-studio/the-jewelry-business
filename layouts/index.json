@@ -1,7 +1,7 @@
 [
 {{- $first := true -}}
 {{- range .Site.AllPages -}}
-  {{- if and (not .Draft) (eq .Kind "page") -}}
+  {{- if and (not .Draft) (or (eq .Kind "page") (eq .Kind "section")) -}}
 
     {{- if not $first }},{{ end -}}
     {{- $first = false -}}
