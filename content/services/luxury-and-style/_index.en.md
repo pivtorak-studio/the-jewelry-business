@@ -2,14 +2,10 @@
 id: luxury-and-style
 language: en
 translation_of: luxury-and-style
-
-title: "Luxury & Style"
-
-description: "Luxury aesthetics, platinum jewelry, cultural symbolism, design philosophy, and the visual heritage of jewelry art."
-
+title: Luxury & Style
+description: Luxury aesthetics, platinum jewelry, cultural symbolism, design philosophy, and the visual heritage of jewelry art.
 event_date: 2026-05-25T18:00:00
 publication_date: 2026-05-25T18:00:00
-
 tags:
   - luxury jewelry
   - platinum jewelry
@@ -21,38 +17,29 @@ tags:
   - jewelry archive
   - visual culture
   - The Jewelry Business
-
 country: PT
 status: published
 featured: true
-
 image: /images/luxury-and-style.webp
-
-alt: "Elegant platinum necklace and diamond ring floating on a seamless pure white background in a premium editorial composition for The Jewelry Business."
-
+alt: Elegant platinum necklace and diamond ring floating on a seamless pure white background in a premium editorial composition for The Jewelry Business.
 related:
   - /en/jewelry-manufacturing/
   - /en/intelligence-and-heritage/
   - /en/about/mission/
   - /en/about/philosophy/
   - /en/timeline/
-
-weight: 1
+weight: 3
 draft: false
 toc: true
-
 categories:
   - Luxury
   - Jewelry Art
   - Heritage
   - Research
-
 series:
   - The Jewelry Business
-
 authors:
   - The Jewelry Business Editorial Research
-
 keywords:
   - luxury jewelry
   - platinum jewelry
@@ -165,3 +152,6 @@ A curated visual memory of craftsmanship, elegance, and design culture.
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+
+---
+{{< section >}}

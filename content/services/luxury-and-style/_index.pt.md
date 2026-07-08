@@ -28,7 +28,7 @@ related:
   - /pt/about/mission/
   - /pt/about/philosophy/
   - /pt/timeline/
-weight: 1
+weight: 3
 draft: false
 toc: true
 categories:
@@ -151,3 +151,6 @@ Uma memória visual curada de artesanato, elegância e cultura do design.
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+
+---
+{{< section >}}

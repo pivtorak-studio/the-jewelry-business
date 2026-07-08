@@ -28,7 +28,7 @@ related:
   - /ru/about/mission/
   - /ru/about/philosophy/
   - /ru/timeline/
-weight: 1
+weight: 3
 draft: false
 toc: true
 categories:
@@ -151,3 +151,6 @@ keywords:
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+
+---
+{{< section >}}

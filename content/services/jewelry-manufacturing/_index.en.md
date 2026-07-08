@@ -9,7 +9,7 @@ event_date: 2026-05-22T21:00:00
 publication_date: 2026-05-22T21:00:00
 draft: false
 featured: true
-weight: 1
+weight: 2
 toc: true
 image: /images/jewelry-manufacturing.webp
 alt: Close-up of a jeweler’s hands working with wax model and raw gold in a professional workshop.
@@ -137,3 +137,6 @@ Step-by-step technical instructions and professional production methodologies.
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+
+---
+{{< section >}}

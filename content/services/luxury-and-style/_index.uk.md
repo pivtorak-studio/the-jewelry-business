@@ -28,7 +28,7 @@ related:
   - /uk/about/mission/
   - /uk/about/philosophy/
   - /uk/timeline/
-weight: 1
+weight: 3
 draft: false
 toc: true
 categories:
@@ -151,3 +151,6 @@ keywords:
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+
+---
+{{< section >}}

@@ -28,7 +28,7 @@ related:
   - /uk/intelligence-and-heritage/
   - /uk/about/mission/
   - /uk/about/philosophy/
-weight: 1
+weight: 2
 draft: false
 toc: true
 categories:
@@ -154,3 +154,6 @@ hero_image: /images/jewelry-manufacturing.webp
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+
+---
+{{< section >}}

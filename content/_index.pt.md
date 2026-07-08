@@ -143,3 +143,4 @@ Investigação, proveniência, arquivos, cultura de leilões e documentação hi
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+

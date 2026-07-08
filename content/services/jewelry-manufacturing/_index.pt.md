@@ -28,7 +28,7 @@ related:
   - /pt/intelligence-and-heritage/
   - /pt/about/mission/
   - /pt/about/philosophy/
-weight: 1
+weight: 2
 draft: false
 toc: true
 categories:
@@ -153,3 +153,6 @@ Instruções técnicas passo a passo e metodologias profissionais de produção.
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+
+---
+{{< section >}}

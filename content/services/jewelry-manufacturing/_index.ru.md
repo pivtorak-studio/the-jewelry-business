@@ -28,7 +28,7 @@ related:
   - /ru/intelligence-and-heritage/
   - /ru/about/mission/
   - /ru/about/philosophy/
-weight: 1
+weight: 2
 draft: false
 toc: true
 categories:
@@ -153,3 +153,6 @@ The Jewelry Business уделяет особое внимание наследи
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
+
+---
+{{< section >}}
