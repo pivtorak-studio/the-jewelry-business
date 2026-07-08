@@ -86,7 +86,7 @@ version: "1.0"
 
 ![Converters](/images/converters.webp)
 
-# Converters
+# Converters  
 
 Professional converters developed for jewelry design, manufacturing, gemology, and precious metals.
 
