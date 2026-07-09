@@ -51,108 +51,148 @@ defaultContentLanguageInSubdir = false
 
 # --- АНГЛІЙСЬКЕ МЕНЮ ---
 [[languages.en.menu.main]]
-  name = "⋅ The Jewelry Business"
+  name = "The Jewelry Business"
   url = "/"
   weight = 1
 
 [[languages.en.menu.main]]
-  name = "⋅ Manufacturing"
+  name = "Manufacturing"
   url = "/services/jewelry-manufacturing/"
   weight = 2
 
 [[languages.en.menu.main]]
-  name = "⋅ Luxury & Style"
+  name = "Luxury & Style"
   url = "/services/luxury-and-style/"
   weight = 3
 
 [[languages.en.menu.main]]
-  name = "⋅ Intelligence & Heritage"
+  name = "Intelligence & Heritage"
   url = "/services/intelligence-and-heritage/"
   weight = 4
 
 [[languages.en.menu.main]]
-  name = "÷ Calculators & Converters"
+  name = "Calculators"
   url = "/calculators/"
   weight = 5
 
+[[languages.en.menu.main]]
+  name = "Converters"
+  url = "/converters/"
+  weight = 6
+
+[[languages.en.menu.main]]
+  name = "Templates"
+  url = "/templates/"
+  weight = 7
+
 # --- УКРАЇНСЬКЕ МЕНЮ ---
 [[languages.uk.menu.main]]
-  name = "⋅ Ювелірний Бізнес"
+  name = "Ювелірний Бізнес"
   url = "/uk/"
   weight = 1
 
 [[languages.uk.menu.main]]
-  name = "⋅ Виробництво"
+  name = "Виробництво"
   url = "/uk/services/jewelry-manufacturing/"
   weight = 2
 
 [[languages.uk.menu.main]]
-  name = "⋅ Розкіш і Стиль"
+  name = "Розкіш і Стиль"
   url = "/uk/services/luxury-and-style/"
   weight = 3
 
 [[languages.uk.menu.main]]
-  name = "⋅ Спадщина та Дослідження"
+  name = "Спадщина та Дослідження"
   url = "/uk/services/intelligence-and-heritage/"
   weight = 4
 
 [[languages.uk.menu.main]]
-  name = "÷ Калькулятори та Конвертери"
+  name = "Калькулятори"
   url = "/uk/calculators/"
   weight = 5
 
+[[languages.uk.menu.main]]
+  name = "Конвертери"
+  url = "/uk/converters/"
+  weight = 6
+
+[[languages.uk.menu.main]]
+  name = "Шаблони"
+  url = "/uk/templates/"
+  weight = 7
+
 # --- ПОРТУГАЛЬСЬКЕ МЕНЮ ---
 [[languages.pt.menu.main]]
-  name = "⋅ O Negócio da Joalharia"
+  name = "O Negócio da Joalharia"
   url = "/pt/"
   weight = 1
 
 [[languages.pt.menu.main]]
-  name = "⋅ Fabricação"
+  name = "Fabricação"
   url = "/pt/services/jewelry-manufacturing/"
   weight = 2
 
 [[languages.pt.menu.main]]
-  name = "⋅ Luxo e Estilo"
+  name = "Luxo e Estilo"
   url = "/pt/services/luxury-and-style/"
   weight = 3
 
 [[languages.pt.menu.main]]
-  name = "⋅ Património e Investigação"
+  name = "Património e Investigação"
   url = "/pt/services/intelligence-and-heritage/"
   weight = 4
 
 [[languages.pt.menu.main]]
-  name = "÷ Calculadoras e Conversores"
+  name = "Calculadoras"
   url = "/pt/calculators/"
   weight = 5
+
+[[languages.pt.menu.main]]
+  name = "Conversores"
+  url = "/pt/converters/"
+  weight = 6
+
+[[languages.pt.menu.main]]
+  name = "Modelos"
+  url = "/pt/templates/"
+  weight = 7
 
 
 # --- РОСІЙСЬКЕ МЕНЮ ---
 [[languages.ru.menu.main]]
- name = "⋅ Ювелирный Бизнес"
+ name = "Ювелирный Бизнес"
  url = "/ru/"
  weight = 1
 
 [[languages.ru.menu.main]]
- name = "⋅ Производство"
+ name = "Производство"
  url = "/ru/services/jewelry-manufacturing/"  
  weight = 2
 
 [[languages.ru.menu.main]]
-  name = "⋅ Роскошь и Стиль"
+  name = "Роскошь и Стиль"
   url = "/ru/services/luxury-and-style/"
   weight = 3
 
 [[languages.ru.menu.main]]
-  name = "⋅ Наследие и Исследования"
+  name = "Наследие и Исследования"
   url = "/ru/services/intelligence-and-heritage/"
   weight = 4
 
 [[languages.ru.menu.main]]
-  name = "÷ Калькуляторы и Конвертеры"
+  name = "Калькуляторы"
   url = "/ru/calculators/"
   weight = 5
+
+[[languages.ru.menu.main]]
+  name = "Конвертеры"
+  url = "/ru/converters/"
+  weight = 6
+
+[[languages.ru.menu.main]]
+  name = "Шаблоны"
+  url = "/ru/templates/"
+  weight = 7
 
 [markup]
   [markup.goldmark]
