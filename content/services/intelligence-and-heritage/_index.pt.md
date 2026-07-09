@@ -168,6 +168,4 @@ O estudo da joalharia como parte de processos culturais, artísticos e civilizac
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
 
----
-{{< section >}}
 

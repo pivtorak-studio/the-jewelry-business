@@ -167,6 +167,4 @@ The study of jewelry as part of broader cultural, artistic, and civilizational p
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
 
----
-{{< section >}}
 

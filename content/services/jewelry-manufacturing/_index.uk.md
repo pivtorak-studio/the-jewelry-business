@@ -154,6 +154,3 @@ hero_image: /images/jewelry-manufacturing.webp
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
-
----
-{{< section >}}

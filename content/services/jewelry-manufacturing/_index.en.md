@@ -137,6 +137,3 @@ Step-by-step technical instructions and professional production methodologies.
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
-
----
-{{< section >}}

@@ -151,6 +151,3 @@ Uma memória visual curada de artesanato, elegância e cultura do design.
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
-
----
-{{< section >}}

@@ -154,5 +154,3 @@ Instruções técnicas passo a passo e metodologias profissionais de produção.
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
 
----
-{{< section >}}

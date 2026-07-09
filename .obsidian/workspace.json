@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.en.md",
+                "file": "content/services/luxury-and-style/_index.uk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index.en"
+              "title": "_index.uk"
             }
           }
         ]
@@ -185,6 +185,18 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/services/luxury-and-style/_index.ru.md",
+    "content/services/luxury-and-style/_index.pt.md",
+    "content/services/luxury-and-style/_index.en.md",
+    "content/services/intelligence-and-heritage/_index.uk.md",
+    "content/services/intelligence-and-heritage/_index.ru.md",
+    "content/services/intelligence-and-heritage/_index.pt.md",
+    "content/services/intelligence-and-heritage/_index.en.md",
+    "content/services/jewelry-manufacturing/_index.uk.md",
+    "content/services/jewelry-manufacturing/_index.ru.md",
+    "content/services/jewelry-manufacturing/_index.pt.md",
+    "content/services/jewelry-manufacturing/_index.en.md",
+    "content/_index.en.md",
     "content/templates/_index.uk.md",
     "content/templates/_index.ru.md",
     "content/templates/_index.pt.md",
@@ -197,7 +209,6 @@
     "content/converters/_index.ru.md",
     "content/converters/_index.pt.md",
     "content/converters/_index.en.md",
-    "content/_index.en.md",
     "static/images/templates.webp",
     "static/images/Unconfirmed 349788.crdownload",
     "static/images/converters.webp",
@@ -205,18 +216,7 @@
     "static/images/calculators.webp",
     "static/images/Unconfirmed 493299.crdownload",
     "content/services/luxury-and-style/_index.uk.md",
-    "content/services/luxury-and-style/_index.ru.md",
-    "content/services/luxury-and-style/_index.pt.md",
-    "content/services/luxury-and-style/_index.en.md",
-    "content/services/jewelry-manufacturing/_index.uk.md",
-    "content/services/jewelry-manufacturing/_index.ru.md",
-    "content/services/jewelry-manufacturing/_index.pt.md",
-    "content/services/jewelry-manufacturing/_index.en.md",
-    "content/services/intelligence-and-heritage/_index.en.md",
     "content/_index.uk.md",
-    "content/_index.ru.md",
-    "content/_index.pt.md",
-    "README.md",
     "static/images/logo/Unconfirmed 728216.crdownload",
     "layouts/partials/ru-unavailable.html",
     "layouts/partials/New Text Document.txt",

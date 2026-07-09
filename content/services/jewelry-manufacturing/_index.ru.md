@@ -154,5 +154,3 @@ The Jewelry Business уделяет особое внимание наследи
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
 
----
-{{< section >}}
