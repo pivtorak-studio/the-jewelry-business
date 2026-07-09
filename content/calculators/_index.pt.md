@@ -98,7 +98,5 @@ A coleção continuará a crescer com novos cálculos profissionais relacionados
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
 
----
-{{< section >}}
 
 

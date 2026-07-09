@@ -97,6 +97,3 @@ version: "1.0"
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
-
----
-{{< section >}}

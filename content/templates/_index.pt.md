@@ -97,6 +97,3 @@ A biblioteca continuará a crescer com novos recursos especializados para profis
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
-
----
-{{< section >}}

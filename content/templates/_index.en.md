@@ -98,5 +98,3 @@ The library will continue to expand with specialized resources for jewelry profe
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
 
----
-{{< section >}}

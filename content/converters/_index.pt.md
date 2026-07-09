@@ -97,6 +97,3 @@ A biblioteca continuará a crescer com novos conversores especializados para apo
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
-
----
-{{< section >}}

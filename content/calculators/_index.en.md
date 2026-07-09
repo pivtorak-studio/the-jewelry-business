@@ -98,8 +98,6 @@ The collection will continue to grow with new professional tools covering measur
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
 
----
-{{< section >}}
 
 
 

@@ -98,6 +98,3 @@ The library will continue to expand with specialized converters supporting jewel
 
 The Jewelry Business  
 Analytical Center & Heritage Archive of Jewelry Art
-
----
-{{< section >}}
