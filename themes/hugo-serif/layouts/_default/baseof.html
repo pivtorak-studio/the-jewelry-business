@@ -55,6 +55,10 @@
     }
   </style>
 
+{{ with resources.Get "css/tool-card.css" }}
+<link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}
+
   {{ block "meta_tags" . }}
     {{ with .Params.description }}<meta name="description" content="{{ . }}"/>{{ end }}
     <meta property="og:title" content="{{ .Params.meta_title | default .Title }}"/>
