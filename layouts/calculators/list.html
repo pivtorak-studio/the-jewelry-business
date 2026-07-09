@@ -11,7 +11,7 @@
     <p>Pages: {{ len .Pages }}</p>
     <p>RegularPages: {{ len .RegularPages }}</p>
 
-    {{ range .RegularPages }}
+    {{ range .RegularPages.ByWeight }}
 
         <h2>
             <a href="{{ .RelPermalink }}">
