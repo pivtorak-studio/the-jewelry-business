@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/calculators/gold-weight-calculator.en.md",
+                "file": "content/calculators/stone-size-calculator.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gold-weight-calculator.en"
+              "title": "stone-size-calculator.en"
             }
           }
         ]
@@ -185,19 +185,19 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
-    "content/calculators/gold-weight-calculator.pt.md",
-    "content/calculators/gold-weight-calculator.ru.md",
-    "content/calculators/gold-weight-calculator.uk.md",
     "content/calculators/gold-weight-calculator.en.md",
     "content/calculators/metal-price-calculator.en.md",
-    "content/calculators/stone-size-calculator.en.md",
-    "content/calculators/stone-size-calculator.pt.md",
-    "content/calculators/stone-size-calculator.ru.md",
     "content/calculators/stone-size-calculator.uk.md",
-    "content/calculators/_index.en.md",
-    "content/calculators/metal-price-calculator.pt.md",
-    "content/calculators/metal-price-calculator.ru.md",
+    "content/calculators/stone-size-calculator.ru.md",
+    "content/calculators/stone-size-calculator.pt.md",
+    "content/calculators/stone-size-calculator.en.md",
     "content/calculators/metal-price-calculator.uk.md",
+    "content/calculators/gold-weight-calculator.uk.md",
+    "content/calculators/gold-weight-calculator.ru.md",
+    "content/calculators/gold-weight-calculator.pt.md",
+    "content/calculators/metal-price-calculator.ru.md",
+    "content/calculators/metal-price-calculator.pt.md",
+    "content/calculators/_index.en.md",
     "content/templates/_index.uk.md",
     "static/images/Unconfirmed 867119.crdownload",
     "content/templates/_index.ru.md",
