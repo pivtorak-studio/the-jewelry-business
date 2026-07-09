@@ -38,12 +38,12 @@ defaultContentLanguageInSubdir = false
     languageName = "Português"
     weight = 3
 
-  # Російську мову тимчасово закоментовано. 
-  # Для активації просто видаліть символ "#" з початку наступних 4 рядків:
-  # [languages.ru]
-  #   languageCode = "ru-ru"
-  #   languageName = "Русский"
-  #   weight = 4
+  # Російську мову тимчасово закоментовано/розкоментовано. 
+  # Для активації/деактивації просто видаліть/додайте символ "#" з початку наступних 4 рядків:
+ [languages.ru]
+    languageCode = "ru-ru"
+    languageName = "Русский"
+    weight = 4
 
 # ----------------------------------------------------
 # МЕНЮ НАВІГАЦІЇ ДЛЯ КОЖНОЇ МОВИ
@@ -129,30 +129,30 @@ defaultContentLanguageInSubdir = false
 
 
 # --- РОСІЙСЬКЕ МЕНЮ ---
- [[languages.ru.menu.main]]
-  name = "⋅ Ювелирный Бизнес"
-  url = "/ru/"
-  weight = 1
+[[languages.ru.menu.main]]
+ name = "⋅ Ювелирный Бизнес"
+ url = "/ru/"
+ weight = 1
 
- [[languages.ru.menu.main]]
-  name = "⋅ Производство"
-  url = "/ru/services/jewelry-manufacturing/"  # Посилання на російський файл
-  weight = 2
+[[languages.ru.menu.main]]
+ name = "⋅ Производство"
+ url = "/ru/services/jewelry-manufacturing/"  
+ weight = 2
 
- [[languages.ru.menu.main]]
-   name = "⋅ Роскошь и Стиль"
-   url = "/ru/services/luxury-and-style/"
-   weight = 3
+[[languages.ru.menu.main]]
+  name = "⋅ Роскошь и Стиль"
+  url = "/ru/services/luxury-and-style/"
+  weight = 3
 
- [[languages.ru.menu.main]]
-   name = "⋅ Наследие и Исследования"
-   url = "/ru/services/intelligence-and-heritage/"
-   weight = 4
+[[languages.ru.menu.main]]
+  name = "⋅ Наследие и Исследования"
+  url = "/ru/services/intelligence-and-heritage/"
+  weight = 4
 
- [[languages.ru.menu.main]]
-   name = "÷ Калькуляторы и Конвертеры"
-   url = "/ru/calculators/"
-   weight = 5
+[[languages.ru.menu.main]]
+  name = "÷ Калькуляторы и Конвертеры"
+  url = "/ru/calculators/"
+  weight = 5
 
 [markup]
   [markup.goldmark]
