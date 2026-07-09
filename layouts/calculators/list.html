@@ -9,6 +9,9 @@
     <hr>
 
     <p>Pages: {{ len .Pages }}</p>
+    <p>RegularPages: {{ len .RegularPages }}</p>
+
+    {{ range .RegularPages }}
 
         <h2>
             <a href="{{ .RelPermalink }}">

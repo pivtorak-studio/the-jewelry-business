@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/templates/_index.uk.md",
+                "file": "content/calculators/_index.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index.uk"
+              "title": "_index.en"
             }
           }
         ]
@@ -185,6 +185,14 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/calculators/metal-price-calculator.en.md",
+    "content/calculators/metal-price-calculator.pt.md",
+    "content/calculators/metal-price-calculator.ru.md",
+    "content/calculators/metal-price-calculator.uk.md",
+    "content/calculators/gold-weight-calculator.pt.md",
+    "content/calculators/gold-weight-calculator.en.md",
+    "content/templates/_index.uk.md",
+    "static/images/Unconfirmed 867119.crdownload",
     "content/templates/_index.ru.md",
     "content/templates/_index.pt.md",
     "content/templates/_index.en.md",
@@ -202,19 +210,12 @@
     "layouts/Нова папка",
     "content/calculators/gold-weight-calculator.uk.md",
     "content/calculators/gold-weight-calculator.ru.md",
-    "content/calculators/gold-weight-calculator.pt.md",
-    "content/calculators/gold-weight-calculator.en.md",
     "content/converters/gold-weight-calculator.uk.md",
     "content/converters/gold-weight-calculator.ru.md",
     "content/converters/gold-weight-calculator.pt.md",
     "content/converters/gold-weight-calculator.en.md",
-    "content/templates/_index.uk.md",
     "content/services/luxury-and-style/_index.uk.md",
     "content/services/luxury-and-style/_index.ru.md",
-    "content/services/luxury-and-style/_index.pt.md",
-    "content/services/luxury-and-style/_index.en.md",
-    "content/services/intelligence-and-heritage/_index.uk.md",
-    "content/services/intelligence-and-heritage/_index.ru.md",
     "static/images/templates.webp",
     "static/images/Unconfirmed 349788.crdownload",
     "static/images/converters.webp",
@@ -223,7 +224,6 @@
     "static/images/Unconfirmed 493299.crdownload",
     "static/images/logo/Unconfirmed 728216.crdownload",
     "layouts/partials/ru-unavailable.html",
-    "layouts/partials/New Text Document.txt",
     "static/images/intelligence-and-heritage.webp",
     "static/images/luxury-and-style.webp",
     "static/images/the-jewelry-business.webp",
