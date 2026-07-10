@@ -93,7 +93,3 @@ A coleção inclui ferramentas práticas para converter tamanhos de anéis, espe
 
 A biblioteca continuará a crescer com novos conversores especializados para apoiar a produção, o fabrico e os processos técnicos da joalharia.
 
----
-
-The Jewelry Business  
-Analytical Center & Heritage Archive of Jewelry Art

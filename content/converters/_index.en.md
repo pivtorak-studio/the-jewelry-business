@@ -94,7 +94,3 @@ The collection includes practical tools for converting ring sizes, wire gauges, 
 
 The library will continue to expand with specialized converters supporting jewelry production, craftsmanship, and technical workflows.
 
----
-
-The Jewelry Business  
-Analytical Center & Heritage Archive of Jewelry Art

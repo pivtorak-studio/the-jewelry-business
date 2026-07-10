@@ -93,7 +93,3 @@ version: "1.0"
 
 Бібліотека постійно поповнюватиметься спеціалізованими матеріалами для ювелірів, майстерень, виробників, викладачів і незалежних майстрів.
 
----
-
-The Jewelry Business  
-Analytical Center & Heritage Archive of Jewelry Art

@@ -12,14 +12,18 @@
 
       <article class="tool-card">
 
+        {{ with .Params.image }}
+        <div class="tool-card-image">
+          <img src="{{ . }}" alt="{{ $.Title }}">
+        </div>
+        {{ end }}
+
         <div class="tool-card__type">
           🧮 Calculator
         </div>
 
         <h2 class="tool-card__title">
-          <a href="{{ .RelPermalink }}">
-            {{ .Title }}
-          </a>
+          {{ .Title }}
         </h2>
 
         <p class="tool-card__summary">

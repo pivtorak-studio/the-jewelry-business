@@ -93,10 +93,6 @@ Cada ferramenta foi criada para fornecer resultados rápidos, claros e fáceis d
 
 A coleção continuará a crescer com novos cálculos profissionais relacionados com medições, metais preciosos, geometria, fabrico, finanças e outras áreas técnicas.
 
----
-
-The Jewelry Business  
-Analytical Center & Heritage Archive of Jewelry Art
 
 
 

@@ -93,7 +93,3 @@ A coleção inclui modelos reutilizáveis para especificações, processos de pr
 
 A biblioteca continuará a crescer com novos recursos especializados para profissionais da joalharia, oficinas, fabricantes, formadores e criadores independentes.
 
----
-
-The Jewelry Business  
-Analytical Center & Heritage Archive of Jewelry Art

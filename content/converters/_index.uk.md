@@ -93,9 +93,5 @@ version: "1.0"
 
 Бібліотека постійно поповнюватиметься спеціалізованими конвертерами для ювелірного виробництва, майстерності та технічних процесів.
 
----
-
-The Jewelry Business  
-Analytical Center & Heritage Archive of Jewelry Art
 
 

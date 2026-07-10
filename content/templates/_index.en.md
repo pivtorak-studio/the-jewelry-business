@@ -93,8 +93,4 @@ The collection includes reusable templates for specifications, production proces
 
 The library will continue to expand with specialized resources for jewelry professionals, workshops, manufacturers, educators, and independent makers.
 
----
-
-The Jewelry Business  
-Analytical Center & Heritage Archive of Jewelry Art
 

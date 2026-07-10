@@ -93,10 +93,6 @@ Each calculator focuses on practical use, providing fast and transparent results
 
 The collection will continue to grow with new professional tools covering measurements, materials, precious metals, geometry, finance, manufacturing, and other technical fields.
 
----
-
-The Jewelry Business  
-Analytical Center & Heritage Archive of Jewelry Art
 
 
 
