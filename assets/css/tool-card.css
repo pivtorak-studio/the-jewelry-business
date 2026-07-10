@@ -94,3 +94,54 @@
     object-fit: cover;
     display: block;
 }
+
+.tool-card__button{
+    display:inline-flex;
+    align-items:center;
+
+    margin-top:auto;
+    padding:.7rem 1.2rem;
+
+    border:1px solid #d9d9d9;
+    border-radius:999px;
+
+    background:#ffffff;
+
+    color:#2b2b2b;
+    text-decoration:none;
+    font-weight:600;
+
+    transition:all .25s ease;
+}
+
+.tool-card__button:hover{
+
+    background:#2b2b2b;
+    color:#ffffff;
+
+    border-color:#2b2b2b;
+
+    transform:translateY(-2px);
+}
+
+.tool-card{
+
+    display:flex;
+    flex-direction:column;
+
+    overflow:hidden;
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+
+}
+
+.tool-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 12px 34px rgba(0,0,0,.08);
+
+}
