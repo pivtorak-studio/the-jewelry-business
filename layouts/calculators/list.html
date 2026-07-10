@@ -1,43 +1,41 @@
-<div class="tool-grid">
+{{ define "main" }}
 
-{{ range .RegularPages.ByWeight }}
+<div class="container">
 
-<div class="tool-card">
+  <h1>{{ .Title }}</h1>
 
-    <div class="tool-type">
-        🧮 Calculator
-    </div>
+  {{ .Content }}
 
-    <h3 class="tool-title">
-        <a href="{{ .RelPermalink }}">
+  <div class="tool-grid">
+
+    {{ range .RegularPages.ByWeight }}
+
+      <article class="tool-card">
+
+        <div class="tool-card__type">
+          🧮 Calculator
+        </div>
+
+        <h2 class="tool-card__title">
+          <a href="{{ .RelPermalink }}">
             {{ .Title }}
+          </a>
+        </h2>
+
+        <p class="tool-card__summary">
+          {{ .Description | default .Summary }}
+        </p>
+
+        <a class="tool-card__button" href="{{ .RelPermalink }}">
+          Open →
         </a>
-    </h3>
 
-    <div class="tool-summary">
-        {{ with .Params.summary }}
-            {{ . }}
-        {{ else }}
-            {{ .Summary }}
-        {{ end }}
-    </div>
+      </article>
 
-    <div class="tool-tags">
-        {{ .Params.discipline }}
-    </div>
+    {{ end }}
 
-    <div class="tool-footer">
-        <span class="tool-status">
-            Professional Tool
-        </span>
-
-        <span class="tool-open">
-            Open →
-        </span>
-    </div>
+  </div>
 
 </div>
 
 {{ end }}
-
-</div>
