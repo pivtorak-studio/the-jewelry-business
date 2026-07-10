@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/calculators/stone-size-calculator.uk.md",
+                "file": "content/calculators/_index.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stone-size-calculator.uk"
+              "title": "_index.en"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
+    "content/calculators/stone-size-calculator.uk.md",
     "static/images/Unconfirmed 649517.crdownload",
     "static/images/Unconfirmed 814161.crdownload",
     "static/images/Unconfirmed 83746.crdownload",
@@ -221,8 +222,6 @@
     "content/calculators/_index.ru.md",
     "content/calculators/_index.pt.md",
     "layouts/partials/Новий Text Document.txt",
-    "assets/css/tool-card.css",
-    "content/calculators/stone-size-calculator.uk.md",
     "content/converters/gold-weight-calculator.uk.md",
     "static/images/templates.webp",
     "static/images/converters.webp",
