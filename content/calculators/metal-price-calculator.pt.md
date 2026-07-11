@@ -1,5 +1,5 @@
 ---
-title: Metal Price Calculator
+title: Calculadora do Preço do Metal
 description: ...
 draft: false
 weight: 1
