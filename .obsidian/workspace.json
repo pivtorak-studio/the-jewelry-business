@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/calculators/metal-price-calculator.en.md",
+                "file": "content/calculators/metal-price-calculator.pt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "metal-price-calculator.en"
+              "title": "metal-price-calculator.pt"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "7b0585f121673276",
   "lastOpenFiles": [
-    "content/calculators/metal-price-calculator.uk.md",
     "content/calculators/metal-price-calculator.ru.md",
+    "content/calculators/metal-price-calculator.uk.md",
     "content/calculators/metal-price-calculator.pt.md",
     "content/calculators/metal-price-calculator.en.md",
     "content/calculators/_index.en.md",
